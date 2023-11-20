@@ -1,0 +1,59 @@
+.header-container{
+
+  background-color: #FAEDCA;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+
+
+.triangle-container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    overflow: hidden;
+  }
+
+  .triangle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 0%);
+  }
+
+  .black {
+    background-color: black;
+  }
+
+  .triangle-gitHub{
+    position: absolute;
+      width: 50px; 
+      height: 50px;
+  }
+
+  .navBar{
+    display: flex;
+
+    &_link{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      margin-right: 20px;
+      &:hover p {
+        opacity: 1;
+      }
+    }
+    &_icon {
+      color: black;
+      height: 40px;
+      margin-top: 15px;
+    }
+    p{
+      opacity: 0; 
+      transition: opacity 0.5s ease;
+      color: black;
+    }
+  }
+
+}
