@@ -5,15 +5,15 @@ import styles from '../style/_header.module.scss';
 import Link from "next/link";
 
 import logo from "../../public/logo_git_hub.png"
-import people_logo from "../../public/people_logo.png"
-import projet_logo from "../../public/projet_logo.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAt,
+} from "@fortawesome/free-solid-svg-icons"
+import {
   faLightbulb,
   faUser
-} from "@fortawesome/free-solid-svg-icons"
+} from "@fortawesome/free-regular-svg-icons"
 
 
 
