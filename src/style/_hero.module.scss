@@ -2,16 +2,21 @@
 
 .hero-main{
     background-color: #f0f0f0;
+    @media (min-width : 768px) {
     padding: 2em;
+    }
 
     .fancy {
         --offset: 10px;
         background-color: #f0f0f0;
         position: relative;
-        height: 80vh;
+        height: 98vh;
         width: 100wh;
         max-width: 100%;
         overflow: hidden;
+        @media (min-width : 768px) {
+            height: 85vh;
+            }
 
     }
     
@@ -53,9 +58,10 @@
     position: absolute;
     inset: 0;
     z-index: 10;
-    padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
     @media (min-width : 768px) {
         padding: 0 5em;
         flex-direction: row;
@@ -67,7 +73,10 @@
         font-size:2em;
         font-family:'Indie Flower', cursive;
         animation : title_apparition 3s ease-in-out forwards;
+        animation-delay: 1s;
         opacity: 0;
+        text-align: center;
+        margin: 0;
         @media (min-width : 768px) {
             font-size: 3em;
         }
@@ -85,11 +94,11 @@
     }
     
     .img_profil{
-        width: 50%;
+        width: 40%;
         height: auto;
-        margin: 2em 0;
         box-shadow: 9px 6px 19px -5px #000000;
         border: 2px solid black;
+        border-radius: 50%;
         @media (min-width : 768px) {
             width: 50%;
             height: 50%;
@@ -101,14 +110,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2em;
     
     }
     p{
        font-family: 'arvo',sans-serif;
+       text-align: justify;
        @media (min-width : 768px) {
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin-left: 3em;
-        
+        width: 70%;
+       }
+       @media (max-width : 1300px) {
+        font-size: 1.1em;
+        width: 90%;
        }
     }
 }
@@ -118,6 +133,7 @@
     background: transparent;
     color: #FF9538;
     font-size:2em;
+    margin-top: 1em;
     animation: bounce 0.35s ease infinite alternate;
     @media (min-width : 768px) {
         font-size: 4em;
