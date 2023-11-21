@@ -12,6 +12,10 @@
     height: 80px;
     background-color: transparent;
     overflow: hidden;
+    display: none;
+    @media (min-width : 768px) {
+      display: block;
+    }
   }
 
   .triangle {
@@ -31,6 +35,53 @@
       height: 50px;
   }
 
+  .title_container{
+    margin-left: 20px;
+     h1{
+      font-family:'Indie Flower', cursive;
+      margin-bottom: 0;
+      font-size: 1em;
+      
+      @media (min-width : 768px) {
+        font-size: 2em;
+      }
+     }
+     .line{
+      width: 150px;
+      height: auto;
+     
+      @media (min-width : 768px) {
+      width: 300px;
+      height: auto;
+      }
+      animation: line_apparition 1s ease forwards;
+      transform-origin: left;
+      opacity: 0;
+    }
+     }
+     @keyframes line_apparition {
+      0% {
+        transform: rotate(-90deg)  translateX(0);
+      }
+      
+      
+      75%{
+        transform: rotate(3deg)  translateX(0);
+        opacity: 0.5;
+      }
+      90%{
+        transform: rotate(-2deg)  translateX(0);
+      }
+      100% {
+        transform: rotate(0deg)  translateX(0);
+        opacity: 1;
+      }
+     }
+    }
+      
+     
+
+
   .navBar{
     display: flex;
 
@@ -40,21 +91,27 @@
       align-items: center;
       text-decoration: none;
       margin-right: 20px;
+      @media (min-width : 768px) {
+
       &:hover p {
         opacity: 1;
       }
     }
+    }
     &_icon {
       color: #ff9538;
-      height: 20px;
       margin-top: 15px;
+      @media (min-width : 768px) {
+        font-size: 2em;
+      }
     }
     p{
-      opacity: 0; 
-      transition: opacity 0.5s ease;
       color: black;
       font-family: 'Indie Flower', cursive;
+      @media (min-width : 768px) {
+      opacity: 0; 
+      transition: opacity 0.5s ease;
+      }
     }
   }
 
-}

@@ -5,6 +5,7 @@ import styles from '../style/_header.module.scss';
 import Link from "next/link";
 
 import logo from "../../public/logo_git_hub.png"
+import Line from "../../public/Line.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -25,6 +26,10 @@ const Header = () => {
       <Link href="https://github.com/LuluShadel" >
           <Image src={logo} alt="GitHub" className={styles["triangle-gitHub"]} />
           </Link>
+      </div>
+      <div className={styles["title_container"]}>
+          <h1>Lucile Thieulin Portfolio</h1>
+          <Image src={Line} alt="ligne orange" className={styles["line"]} />
       </div>
       <div className={styles["navBar"]}>
         <Link className={styles["navBar_link"]} href="#about">
