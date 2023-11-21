@@ -1,0 +1,138 @@
+
+
+.hero-main{
+    background-color: #f0f0f0;
+    padding: 2em;
+
+    .fancy {
+        --offset: 10px;
+        background-color: #f0f0f0;
+        position: relative;
+        height: 80vh;
+        width: 100wh;
+        max-width: 100%;
+        overflow: hidden;
+
+    }
+    
+    .fancy::before { 
+        content: '';
+        background: conic-gradient(transparent 270deg, white, orange);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        aspect-ratio: 1;
+        width: 100%;
+        animation: rotate 2s linear infinite;
+    }
+    
+    .fancy::after {
+        content: '';
+        background: inherit;
+        border-radius: inherit;
+        position: absolute;
+        inset: var(--offset);
+        height: calc(100% - 2 * var(--offset));
+        width: calc(100% - 2 * var(--offset));
+    }
+    
+    @keyframes rotate {
+        from {
+            transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+        }
+    
+        to {
+            transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+        }
+    }
+}
+
+.hero-after{
+    background: transparent;
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    @media (min-width : 768px) {
+        padding: 0 5em;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    h2{
+        color: black;
+        font-size:2em;
+        font-family:'Indie Flower', cursive;
+        animation : title_apparition 3s ease-in-out forwards;
+        opacity: 0;
+        @media (min-width : 768px) {
+            font-size: 3em;
+        }
+        
+    }
+
+    @keyframes title_apparition {
+        50%{
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 1;
+        }
+        
+    }
+    
+    .img_profil{
+        width: 50%;
+        height: auto;
+        margin: 2em 0;
+        box-shadow: 9px 6px 19px -5px #000000;
+        border: 2px solid black;
+        @media (min-width : 768px) {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+        }
+    }
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    p{
+       font-family: 'arvo',sans-serif;
+       @media (min-width : 768px) {
+        font-size: 1.5em;
+        margin-left: 3em;
+        
+       }
+    }
+}
+    
+    
+.hero_icon{
+    background: transparent;
+    color: #FF9538;
+    font-size:2em;
+    animation: bounce 0.35s ease infinite alternate;
+    @media (min-width : 768px) {
+        font-size: 4em;
+        margin-top: 2em;
+        
+    }
+
+}
+
+
+@keyframes bounce{
+    from {transform: translateY(0);}
+    to   {transform: translateY(-20px);}
+}
+
+
+
+
