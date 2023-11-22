@@ -1,6 +1,12 @@
 .header-container{
-
-  background: linear-gradient(to right, #CECECB, #F0F0F0);
+  margin: 0;
+    position: relative;
+  height: 100vh; 
+  background-image: url(../../public//fond.avif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
   height: 80px;

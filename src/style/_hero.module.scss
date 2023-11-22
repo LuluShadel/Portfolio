@@ -1,19 +1,29 @@
 
 
 .hero-main{
-    background-color: #f0f0f0;
+    margin: 0;
+    position: relative;
+  height: 100vh; 
+  background-image: url(../../public//fond.avif);
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+  overflow: hidden;
+  
+
     @media (min-width : 768px) {
-    padding: 2em;
+    padding: 1em 4em;
     }
 
     .fancy {
         --offset: 10px;
         background-color: #f0f0f0;
         position: relative;
-        height: 98vh;
+        height: 90vh;
         width: 100wh;
         max-width: 100%;
         overflow: hidden;
+        box-shadow: 9px 6px 19px -5px #000000 ;
         @media (min-width : 768px) {
             height: 85vh;
             }

@@ -1,0 +1,52 @@
+{
+"competence" :[ 
+{
+    "name":"SASS",
+    "logo":"/sass_logo.png",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name" : "NodeJS",
+    "logo":"/node_logo.png",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name" : "nextJs",
+    "logo" : "/next_logo.svg",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name": "gitHub",
+    "logo": "/github_logo.png",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name":"react",
+    "logo":"/react_logo.png",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name":"redux",
+    "logo":"redux_logo.svg",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name":"figma",
+    "logo":"/figma_logo.svg",
+    "width": 50, 
+    "height": 50
+},
+{
+    "name":"JS",
+    "logo":"/js_logo.webp",
+    "width": 50, 
+    "height": 50
+}
+]
+}
