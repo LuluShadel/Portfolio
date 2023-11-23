@@ -1,0 +1,89 @@
+.main_competence{
+    position: relative;
+  height: 40vh; 
+  background-image: url(../../public//fond.avif);
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+
+  &-title{
+    
+  @media (min-width : 768px) {
+    margin-left: 3em;
+    font-size: 2em;
+  }
+  }
+  &-ligne{
+    height: auto;
+    width: 10em;
+  }
+  &-logo{
+    margin-top: 1.5em;
+    display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 1em;
+  @media (min-width : 768px) {
+    display: flex;
+    justify-content: center;
+    gap:3%;
+  }
+}
+  .competence_logo{
+    
+    
+    @media (min-width : 768px) {
+    width: 80px;
+    height: 80px;
+    }
+
+
+  }
+  
+
+   .in-view{
+    transition: transform 2s ease;
+    transform:rotate(360deg);
+
+    @for $i from 1 through 10 {
+        $delay: (1500ms / 10) * $i;
+    
+        &:nth-child(#{$i}) {
+          animation: rotateIcon 1500ms ease $delay backwards;
+        }
+      }
+   }     
+      
+  
+  
+  
+  p{
+    text-align: center;
+    font-family: 'arvo',sans-serif;
+    margin-top: 1.5em;
+    font-size: 1em;
+    @media (min-width : 768px) {
+        font-size: 1.5em;
+    }
+  }
+
+
+
+@keyframes rotateIcon {
+    0% {
+      transform: translate(0, 100px) rotate(0deg);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+      opacity: 1;
+    }
+  }
+
+}
+ 

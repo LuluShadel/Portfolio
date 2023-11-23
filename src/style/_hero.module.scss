@@ -2,6 +2,10 @@
 
 .hero-main{
     margin: 0;
+    
+
+    @media (min-width : 768px) {
+    padding: 1em 4em;
     position: relative;
   height: 100vh; 
   background-image: url(../../public//fond.avif);
@@ -9,10 +13,6 @@
   background-attachment: fixed; 
   background-position: center;
   overflow: hidden;
-  
-
-    @media (min-width : 768px) {
-    padding: 1em 4em;
     }
 
     .fancy {
