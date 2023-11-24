@@ -3,11 +3,12 @@
 .hero-main{
     margin: 0;
     
+    
 
     @media (min-width : 768px) {
     padding: 1em 4em;
     position: relative;
-  height: 100vh; 
+  height: 100%; 
   background-image: url(../../public//fond.avif);
   background-size: cover;
   background-attachment: fixed; 

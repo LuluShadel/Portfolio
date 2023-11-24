@@ -1,5 +1,9 @@
 import Competence from '../components/competence';
 import Hero from '../components/hero';
+import Projets from '../components/projets';
+
+
+
 
 
 import Head from 'next/head';
@@ -17,6 +21,7 @@ const Home = () => {
       <div>
         <Hero />
         <Competence />
+        <Projets />
       </div>
     </>
   );

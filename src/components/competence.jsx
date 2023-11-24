@@ -14,9 +14,11 @@ const Competence = () => {
 
     return (
         <div ref={ref} className={styles["main_competence"]}>
-            <div className={styles["main_competence-title"]}>
+            <div>
                 <h3>Compétences</h3>
-                <Image src={mini_line} alt='ligne orange' className={styles["main_competence-ligne"]}/>
+                <div>
+                <Image src={mini_line} alt='ligne orange' width={400} className={styles["ligne-orange"]} />
+                </div>
             </div>
             <div className={styles["main_competence-logo"]}>
                 {data.competence.map((competence,index)=>(
