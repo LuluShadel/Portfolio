@@ -1,6 +1,6 @@
 import styles from '../style/_competence.module.scss';
 import Image from 'next/image';
-import { useInView } from 'react-intersection-observer';
+
 
 import data from "../../public/data.json"
 
@@ -8,12 +8,10 @@ import mini_line from "../../public/mini_line.png"
 
 const Competence = () => {
 
-    const [ref, inView] = useInView({
-        triggerOnce: true, 
-      });
+   
 
     return (
-        <div ref={ref} className={styles["main_competence"]}>
+        <div  className={styles["main_competence"]}>
             <div>
                 <h3>Compétences</h3>
                 <div>
@@ -28,7 +26,7 @@ const Competence = () => {
                     alt={competence.name}
                     width={competence.width}
                     height={competence.height}
-                    className={`${styles["competence_logo"]} ${inView ? styles["in-view"] : ''}`}
+                    className={styles["competence_logo"]} 
                     />
                 ))}
             </div>

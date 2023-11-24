@@ -1,6 +1,7 @@
 import Competence from '../components/competence';
 import Hero from '../components/hero';
 import Projets from '../components/projets';
+import CV from '../components/cv';
 
 
 
@@ -22,6 +23,7 @@ const Home = () => {
         <Hero />
         <Competence />
         <Projets />
+        <CV />
       </div>
     </>
   );

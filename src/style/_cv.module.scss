@@ -1,0 +1,42 @@
+
+.main_cv{
+    position: relative;
+  height: 100%; 
+  background-image: url(../../public//fond.avif);
+  background-size: cover;
+  background-attachment: fixed; 
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  @media (min-width : 768px) {
+  padding: 1em 4em;
+  }
+    
+.ligne-orange{
+    height: auto;
+    width: 7em;
+    @media (min-width : 768px) {
+        width: 10em;
+    }
+}
+
+&-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2em;
+    @media (min-width : 768px) {
+        flex-direction: row;;
+    }
+
+    .cv_icon{
+        color: #FF9538;
+        font-size: 5em;
+        
+    }
+}
+
+}
