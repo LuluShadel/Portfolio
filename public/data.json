@@ -52,31 +52,35 @@
 
 
 "projets":[
-    {
-    "title":"Booki",
-    "cover":"/capture_ecran_booki.png",
-    "width": 400, 
-    "height": 400
-    },
-    {
-    "title":"Oh my food",
-    "cover":"/capture_ecran_oh_my_food.png",
-    "width": 400, 
-    "height": 400
-    },
-    {
-    "title":"Sophie Bluel",
-    "cover":"/capture_ecran_sophie_bluel.png",
-    "width": 400, 
-    "height": 400
-    },
+   
     {
         "title":"Kasa",
         "cover":"/capture_ecran_kasa.png",
         "width": 400, 
-        "height": 400
-        }
-
+        "height": 400,
+        "categorie":"React"
+     },
+     {
+        "title":"Sophie Bluel",
+        "cover":"/capture_ecran_sophie_bluel.png",
+        "width": 400, 
+        "height": 400,
+        "categorie":"Javascript"
+     },
+     {
+        "title":"Booki",
+        "cover":"/capture_ecran_booki.png",
+        "width": 400, 
+        "height": 400,
+        "categorie":"HTML/CSS"
+     },
+     {
+         "title":"Oh my food",
+         "cover":"/capture_ecran_oh_my_food.png",
+        "width": 400, 
+        "height": 400,
+        "categorie":"HTML/CSS"
+     }
 
 ]
 }
