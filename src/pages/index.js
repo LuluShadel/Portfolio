@@ -2,6 +2,7 @@ import Competence from '../components/competence';
 import Hero from '../components/hero';
 import Projets from '../components/projets';
 import CV from '../components/cv';
+import Contact from '../components/contact';
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
         <Competence />
         <Projets />
         <CV />
+        <Contact />
       </div>
     </>
   );

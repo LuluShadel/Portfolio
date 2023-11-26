@@ -2,7 +2,7 @@
 
 .hero-main{
     margin: 0;
-    
+    background-image: url(../../public//fond.avif);
     
 
     @media (min-width : 768px) {
@@ -25,9 +25,10 @@
         max-width: 100%;
         overflow: hidden;
         box-shadow: 9px 6px 19px -5px #000000 ;
-        border-radius: 100px;
+        border-radius: 50px;
         @media (min-width : 768px) {
             height: 85vh;
+            border-radius: 100px;
             }
 
     }

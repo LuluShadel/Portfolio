@@ -1,5 +1,6 @@
 
-.main_cv{
+
+.main_contact{
     position: relative;
   height: 100%; 
   background-image: url(../../public//fond.avif);
@@ -13,7 +14,7 @@
   @media (min-width : 768px) {
   padding: 5em 4em;
   }
-    
+
   .ligne-orange{
     
     @media (min-width : 768px) {
@@ -22,24 +23,4 @@
        width: 2em;
     }
 }
-
-&-contain{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2em;
-    margin: 4em 0;
-    @media (min-width : 768px) {
-        flex-direction: row;
-        
-    }
-
-    .cv_icon{
-        color: #FF9538;
-        font-size: 5em;
-        
-    }
-}
-
 }
