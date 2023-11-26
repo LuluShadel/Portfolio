@@ -14,8 +14,8 @@ const Competence = () => {
         <div  className={styles["main_competence"]}>
             <div>
                 <h3>Compétences</h3>
-                <div>
-                <Image src={mini_line} alt='ligne orange' width={400} className={styles["ligne-orange"]} />
+                <div className={styles["ligne-orange"]}>
+                <Image src={mini_line} alt='ligne orange' width={200} />
                 </div>
             </div>
             <div className={styles["main_competence-logo"]}>

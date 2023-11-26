@@ -10,14 +10,15 @@
   flex-direction: column;
   padding: 1em;
   @media (min-width : 768px) {
-  padding: 1em 4em;
+  padding: 7em 4em;
   }
 
   .ligne-orange{
-    height: auto;
-    width: 7em;
+    
     @media (min-width : 768px) {
-        width: 10em;
+       margin-left: 2em;
+       height: auto;
+       width: 2em;
     }
 }
   
@@ -41,6 +42,7 @@
     @media (min-width : 768px) {
     width: 80px;
     height: 80px;
+    margin-bottom: 2em;
     }
     transition: transform 2s ease;
     transform:rotate(360deg);
@@ -58,7 +60,7 @@
 
    @keyframes rotateIcon {
     0% {
-      transform: translate(0, 100px) rotate(0deg);
+      transform: translate(0, 100px) rotate(180deg);
       opacity: 0;
     }
   
@@ -73,7 +75,7 @@
     }
   
     100% {
-      transform: translate(0, 0) rotate(360deg);
+      transform: translate(0, 0) rotate(0deg);
       opacity: 1;
     }
   }

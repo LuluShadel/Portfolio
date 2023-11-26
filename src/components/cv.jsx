@@ -21,8 +21,8 @@ const CV = () => {
 <div className={styles["main_cv"]}>
             
                 <h3>CV</h3>
-                <div>
-                <Image src={mini_line} alt='ligne orange' width={200} className={styles["ligne-orange"]} />
+                <div className={styles["ligne-orange"]}>
+                <Image src={mini_line} alt='ligne orange' width={200}  />
                 </div>
             <div className={styles["main_cv-contain"]}>
                 <Link href="#">

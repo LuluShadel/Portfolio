@@ -11,14 +11,15 @@
   flex-direction: column;
   padding: 1em;
   @media (min-width : 768px) {
-  padding: 1em 4em;
+  padding: 5em 4em;
   }
     
-.ligne-orange{
-    height: auto;
-    width: 7em;
+  .ligne-orange{
+    
     @media (min-width : 768px) {
-        width: 10em;
+       margin-left: 2em;
+       height: auto;
+       width: 2em;
     }
 }
 
@@ -29,7 +30,8 @@
     flex-direction: column;
     gap: 2em;
     @media (min-width : 768px) {
-        flex-direction: row;;
+        flex-direction: row;
+        margin: 4em 0;
     }
 
     .cv_icon{

@@ -11,11 +11,11 @@ padding: 1em;
   @media (min-width : 768px) {
   padding: 1em 4em;
   }
+  
   .ligne-orange{
-    height: auto;
-    width: 7em;
+    
     @media (min-width : 768px) {
-        width: 10em;
+       margin-left: 2em;
     }
 }
 
@@ -28,6 +28,15 @@ padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 100px;
+
+    p{
+        @media (min-width : 768px) {
+        margin-left: 2em;
+        margin-right: 2em;
+        }
+    }
+    
 
     .main_projet-div-filtres{
         display: flex;
