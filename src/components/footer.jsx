@@ -1,41 +1,47 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from '@fortawesome/free-regular-svg-icons';
+import { faLinkedin
+} from '@fortawesome/free-brands-svg-icons';
+
+import {
+   faEnvelope
+} from '@fortawesome/free-regular-svg-icons'
+
+import {
+  faGithub
+} from '@fortawesome/free-brands-svg-icons';
+
+import styles from '../style/_footer.module.scss';
+
+import Link from "next/link";
+
+
+
+
+
 
 
 const Footer = () => {
     return (
-      <>
-        <hr/>
-        <div className="footer-container">
+        <div className={styles['footer_main']}>
+          <div className={styles['footer_reseau']}>
+          <Link href="#">
+            <FontAwesomeIcon icon={faFile} className={styles['icon_contact']} />
+            </Link>
+            <Link href="#">
+            <FontAwesomeIcon icon={faEnvelope} className={styles["icon_contact"]}/>
+            </Link>
+            <Link href="#">
+            <FontAwesomeIcon icon={faLinkedin} className={styles["icon_contact"]}  />
+            </Link>
+            <Link href="#">
+            <FontAwesomeIcon icon={faGithub} className={styles["icon_contact"]}  />
+            </Link>
+          </div>
           <p>
             © {new Date().getFullYear()} Lucile Portfolio
           </p>
-          <div className="social_icons">
-            <a
-              href="https://twitter.com/olawanle_joel"
-              aria-label="Twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-twitter"></i>
-            </a>
-            <a
-              href="https://github.com/olawanlejoel"
-              aria-label="GitHub"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/olawanlejoel/"
-              aria-label="LinkedIn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
-          </div>
         </div>
-      </>
     )
   }
   

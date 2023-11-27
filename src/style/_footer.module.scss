@@ -1,0 +1,36 @@
+.footer_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    height: 100%;
+    background-image: url(../../public//fond.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    
+    .footer_reseau{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 4em;
+        @media (min-width : 768px) {
+            width: 50%;
+        }
+    }
+
+
+    .icon_contact{
+        font-size: 2em;
+        color: #ff9538;
+        
+
+    }
+
+    p{
+        font-size: 1em;
+    
+    }
+}
