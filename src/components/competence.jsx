@@ -30,7 +30,7 @@ const Competence = () => {
                     />
                 ))}
             </div>
-            <p> D&apos;autres compétences à venir  ! </p>
+            <p> D&apos;autres compétences à venir ! </p>
         </div>
     )
 }

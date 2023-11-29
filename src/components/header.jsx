@@ -32,15 +32,15 @@ const Header = () => {
           <Image src={Line} alt="ligne orange" className={styles["line"]} />
       </div>
       <div className={styles["navBar"]}>
-        <Link className={styles["navBar_link"]} href="#about">
+        <Link className={styles["navBar_link"]} href="/#Hero">
         <FontAwesomeIcon icon={faUser} className={styles["navBar_icon"]}/>
           <p>About</p>
         </Link>
-        <Link className={styles["navBar_link"]} href="#projet">
+        <Link className={styles["navBar_link"]} href="/#Projets">
         <FontAwesomeIcon icon={faLightbulb} className={styles["navBar_icon"]}/>
           <p>Projets</p>
         </Link>
-        <Link className={styles["navBar_link"]} href="#contact">
+        <Link className={styles["navBar_link"]} href="/#Contact">
           <FontAwesomeIcon icon={faAt} className={styles["navBar_icon"]}/>
           <p>Contact</p>
         </Link>

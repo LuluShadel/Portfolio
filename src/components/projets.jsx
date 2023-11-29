@@ -37,14 +37,14 @@ const Projets = () => {
   }
 
   return (
-    <div className={styles["main_projets"]}>
+    <div className={styles["main_projets"]} id="Projets">
       <div className={styles["main_projets-div"]}>
         <h3>Projets</h3>
         <div>
           <Image src={mini_line} alt="ligne orange" width={200} className={styles["ligne-orange"]} />
         </div>
         <p>
-          Tout au long de ma formation j’ai effectué différents projets mais j’ai également commencé des projets personnels afin de me former sur d’autres langages
+          Voici mes projets réalisés à ce jour, et ceux en cours de réalisation. Retrouver le lien vers le site ou bien le gitHub pour en apprendre plus sur chaques projets.  
         </p>
         <div className={styles["main_projet-div-filtres"]}>
             <button onClick={handleFiltre} value={"tous"} >Tous</button>

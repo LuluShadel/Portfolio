@@ -28,10 +28,10 @@
 .main_contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    @media (min-width: 768px) {
+    align-items: center;
+    @media (min-width: 968px) {
         flex-direction: row;
-    gap: 20em;
+    justify-content: space-evenly;
     }
 
     .main_contact--reseau {
@@ -77,6 +77,10 @@
     justify-content: center;
     border-radius: 50px;
     padding: 2em 3em;
+    @media (min-width: 768px) {
+        min-width: 20em;
+        width: 40%;
+    }
 }
 
 .formulaire {
@@ -98,9 +102,16 @@
 
     button {
         border-radius: 20px;
-        border: 1px solid #ff9538;
+        border: none;
         width: 8em;
         padding: 1em;
         cursor: pointer;
-    }
+        background: linear-gradient(45deg, #FFA07A, #FFD700);
+        transition: all 0.3s ease;
+
+        &:hover{
+            background: linear-gradient(45deg, #FF6347, #FFA07A);
+        }
+        
+}
 }

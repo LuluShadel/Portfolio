@@ -25,8 +25,11 @@
     .icon_contact{
         font-size: 2em;
         color: #ff9538;
-        
+        transition: transform 0.3s ease-in-out;
 
+        &:hover {
+            transform: scale(1.5);
+        }
     }
 
     p{

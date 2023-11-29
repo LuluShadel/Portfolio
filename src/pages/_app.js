@@ -2,8 +2,8 @@
 import "../style/_global.scss"
 import Layout from '../components/Layout';
 
+//font awesome
 import "@fortawesome/fontawesome-svg-core/styles.css"; 
-
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false
 

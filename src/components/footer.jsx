@@ -28,13 +28,13 @@ const Footer = () => {
           <Link href="#">
             <FontAwesomeIcon icon={faFile} className={styles['icon_contact']} />
             </Link>
-            <Link href="#">
+            <Link href="mailto:lucile.thieulin96@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} className={styles["icon_contact"]}/>
             </Link>
             <Link href="#">
             <FontAwesomeIcon icon={faLinkedin} className={styles["icon_contact"]}  />
             </Link>
-            <Link href="#">
+            <Link href="https://github.com/LuluShadel" >
             <FontAwesomeIcon icon={faGithub} className={styles["icon_contact"]}  />
             </Link>
           </div>
