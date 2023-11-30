@@ -4,10 +4,14 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import mini_line from "../../public/mini_line.png";
 
+import Modal from "./modal";
+
 const Projets = () => {
   const [projetsVisibles, setProjetsVisibles] = useState(3);
   const [afficherTousLesProjets, setAfficherTousLesProjets] = useState(false);
   const [projetFiltre, setProjetFiltre] = useState(null);
+  const [modalIsOpen, setModalIsOpen] = useState(false)
+  const [projetSelectionne, setProjetSelectionne] = useState(null)
 
   const handleVoirPlus = () => {
     setProjetsVisibles(data.projets.length);
@@ -18,6 +22,15 @@ const Projets = () => {
     setProjetsVisibles(3);
     setAfficherTousLesProjets(false);
   };
+
+  const handleModalOpen = (projet) => {
+    setModalIsOpen(true)
+    setProjetSelectionne(projet)
+  }
+
+  const handleModalClosed = () => {
+    setModalIsOpen(false)
+  }
 
 
   function filter(projetType) {
@@ -57,6 +70,7 @@ const Projets = () => {
         <div className={styles["main_projet-div-projets"]}>
           {projetFiltre &&
             projetFiltre.slice(0, projetsVisibles).map((projet, index) => (
+              <div key={index} onClick={() => handleModalOpen(projet)}>
               <Image
                 key={index}
                 src={projet.cover}
@@ -65,7 +79,14 @@ const Projets = () => {
                 height={projet.height}
                 className={styles["projet"]}
               />
+              </div>
             ))}
+            {modalIsOpen && (
+        <Modal
+          projet={projetSelectionne}
+          onClose={handleModalClosed}
+        />
+      )}
         </div>
         {data.projets.length > 3 && (
           <button onClick={afficherTousLesProjets ? handleVoirMoins : handleVoirPlus} className={styles["button-plus-moins"]}>

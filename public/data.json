@@ -58,28 +58,66 @@
         "cover":"/capture_ecran_kasa.png",
         "width": 400, 
         "height": 400,
-        "categorie":"React"
+        "bandeau":"/bandeau-kasa.png",
+        "categorie":"React",
+        "client":"Entreprise leader de la location d'appartements entre particuliers en France.",
+        "objectif":"Moderniser le site avec des animations de qualités, un code plus léger en single page grâce à React, une interface utilisateur plus intuitive",
+        "description":"Refonte total du site réalisé il y longtemps en ASP.NET. Le but était de passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
+        "tag":[
+            {"name":"React","cover":"/react_logo.png"},
+            {"name":"SASS","cover":"/sass_logo.png"},
+            {"name":"Node.js","cover":"/node_logo.png"}
+
+        ]
      },
      {
         "title":"Sophie Bluel",
         "cover":"/capture_ecran_sophie_bluel.png",
         "width": 400, 
         "height": 400,
-        "categorie":"Javascript"
+        "categorie":"Javascript",
+        "bandeau":"/bandeau-sophie.png",
+        "client":"Particulier, Architecte d'intérieur",
+        "objectif":"Présenter les travaux de l'architecte, lui permettre de rajouter ou supprimer des projets une fois qu'elle se connecte",
+        "description":"Appel API afin de stocker les travaux, de pouvoir les supprimer ou bien en ajouter après que Sophie se soit identifié le tout en Javascript",
+        "tag":[
+            {"name":"Javascript","cover":"/js_logo.webp"},
+            {"name":"SASS","cover":"/sass_logo.png"}
+
+        ]
      },
      {
         "title":"Booki",
         "cover":"/capture_ecran_booki.png",
         "width": 400, 
         "height": 400,
-        "categorie":"HTML/CSS"
+        "categorie":"HTML/CSS",
+        "bandeau":"/bandeau-booki.png",
+        "client":"Start-up",
+        "objectif":"développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "description":"Intégration de l'interface du site avec du code HTML et CSS d'après les maquettes desktop, tablette et mobile.",
+        "tag":[
+            {"name":"HTML","cover":"/html_logo.png"},
+            {"name":"CSS","cover":"/css_logo.png"}
+
+        ]
      },
      {
          "title":"Oh my food",
          "cover":"/capture_ecran_oh_my_food.png",
         "width": 400, 
         "height": 400,
-        "categorie":"HTML/CSS"
+        "categorie":"HTML/CSS",
+        "bandeau":"/bandeau-ohMyFood.png",
+        "client":"Start-up New-yorkaise désirant s'installer sur le marchée Parisien",
+        "objectif":"Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques, avec de belles animations pour une meilleure expérience utilisateur",
+        "description":"En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !",
+        "tag":[
+            {"name":"HTML","cover":"/html_logo.png"},
+            {"name":"CSS","cover":"/css_logo.png"},
+            {"name":"SASS","cover":"/sass_logo.png"}
+
+        ]
      }
 
 ]
