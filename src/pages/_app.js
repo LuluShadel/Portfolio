@@ -1,6 +1,6 @@
 
-import "../style/_global.scss"
-import Layout from '../components/Layout';
+import "../style/_global.scss";
+import Layout from "../components/Layout.jsx";
 
 //font awesome
 import "@fortawesome/fontawesome-svg-core/styles.css"; 
