@@ -51,7 +51,7 @@ const Contact = () => {
     });
   
       emailjs.sendForm(
-        'service_ght4qgs',
+        'service_ght4qgs', 
          'template_qwagtfm',
           form.current,
            'K40SqVeyLBYr6Q6g3')
