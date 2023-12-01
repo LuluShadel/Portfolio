@@ -20,7 +20,7 @@ const Hero = () => {
           <div className={styles['hero_text']}>
           <h2>Bonjour, Lucile developpeur Web</h2>
             <p>
-              Toujours à la recherche de nouveau challenge j&apos;ai débuter par l&apos;apprentissage de Javascript mais j&apos;ai très vite érpouvé un grand intérêt pour React et j&apos;ai donc obtenu mon diplôme de developpeur web cependant je ne compte pas m&apos;arrêter la ! Concevoir un site, partant de quelques idées sur un morceau de papier puis faire des maquettes pour enfin le voir prendre forme réelement est un vrai plaisir. J&apos;aime ajouter des petits détails pour faire de chaques sites une pièce unique.
+              Toujours à la recherche de nouveau challenge j&apos;ai débuté par l&apos;apprentissage de Javascript mais j&apos;ai très vite éprouvé un grand intérêt pour React et j&apos;ai donc obtenu mon diplôme de developpeur web cependant je ne compte pas m&apos;arrêter la ! Concevoir un site, partant de quelques idées sur un morceau de papier puis faire des maquettes pour enfin le voir prendre forme réelement est un vrai plaisir. J&apos;aime ajouter des petits détails pour faire de chaques sites une pièce unique.
               </p>
               <p><Link href="/#Contact" className={styles['link_contact']}>Contactez-moi</Link> et parlons de votre projet ! </p>
             

@@ -11,30 +11,60 @@ import { faLinkedin
     faEnvelope
  } from '@fortawesome/free-regular-svg-icons';
 
- import {useForm} from "react-hook-form";
+
+
+ import React, { useRef } from 'react';
+ import emailjs from '@emailjs/browser';
+ import { useState } from 'react';
 
 
 
+// utilisation de EmailJS pour l'envoi des mails en front-end
 
 
 const Contact = () => {
-// variables 
-const {
-  register,  // va permettre "d'enregistrer" 
-   handleSubmit,  //recupère toutes les données une fois le btn cliqé 
-  formState: { errors},  // va gerer les différentes erreurs 
-}= useForm();
+    const [formData, setFormData] = useState({
+        user_name: '',
+        user_email: '',
+        message: ''
+    });
+
+    const [error, setError] = useState('');
+    const [succes, setSucces] = useState('');
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      if (!formData.user_name || !formData.user_email || !formData.message) {
+        setError('Veuillez remplir tous les champs, que je puisse vous re-contacter.');
+        return;
+    }
 
 
 
-
-//methode 
-
-const onSubmitHandler = data => {
-  console.log(data);
-}
-   
-
+      setFormData({
+        user_name: '',
+        user_email: '',
+        message: ''
+    });
+  
+      emailjs.sendForm(
+        'service_ght4qgs',
+         'template_qwagtfm',
+          form.current,
+           'K40SqVeyLBYr6Q6g3')
+        .then((result) => {
+            console.log(result.text);
+            setSucces("Votre message à bien été envoyé. je reviendrais vite vers vous ! ")
+            setError('')
+        }, (error) => {
+            console.log(error.text);
+            setError('Une erreur s\'est produite lors de l\'envoi du formulaire.');
+            setSucces("")
+        });
+    };
 
 
     return (
@@ -64,33 +94,46 @@ const onSubmitHandler = data => {
         </div>
         </Link>
     </div>
+
+
     <div className={styles["main_contact--form"]} >
         <p>Une idée ? <br />Un projet ? <br />Une information ? <br /> N&apos;hesitez pas et contacter moi !</p>
-        <form className={styles["formulaire"]} onSubmit={handleSubmit(onSubmitHandler)}>
+        <form className={styles["formulaire"]} ref={form} onSubmit={sendEmail}>
             <label htmlFor="nom">Nom </label>
             <input 
             type='text' 
             id='nom'
-            {...register("nom", {required : true})} 
+            name="user_name"
+            value={formData.user_name}
+            onChange={(e) => setFormData({ ...formData, user_name: e.target.value })}
+             
             >    
             </input>
-            {errors.nom && <small>Merci de renseigner votre nom</small>} 
+            
             <label htmlFor="email">Email</label>
             <input 
             type="email"
             id='email'
-            {...register("email" , {required :true})}
+            name="user_email"
+            value={formData.user_email}
+            onChange={(e) => setFormData({ ...formData, user_email: e.target.value })}
+            
             />
-            {errors.email && <small>Merci de renseigner votre email que je puisse vous contactez</small>} 
+            
             <label htmlFor="message">Message</label>
             <textarea 
             id='message' 
             rows="10" 
             cols="33"
-            {...register ("contenu", {required:true})}
+            name="message"
+            value={formData.message}
+            onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+            
             
             ></textarea>
-            {errors.contenu && <small>N&apos;hesitez pas à décrire votre projet, vos attentes ou la raison pour laquelle vous me contacter </small>} 
+{succes && <p style={{ color: 'green' }}>{succes}</p> }
+{error && <p style={{ color: 'red' }}>{error}</p>}
+            
             <div className={styles["btn_submit"]}>
             <button type='submit' >
               Envoyer
