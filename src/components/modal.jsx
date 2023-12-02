@@ -7,6 +7,7 @@ import { faXmark
  import logo_lien from "../../public/logo_lien.png";
 
  import Image from 'next/image';
+ import Link from 'next/link';
 
  
 
@@ -45,15 +46,17 @@ const Modal = ({projet,onClose}) => {
                 </div>
                 </div>
                 <div className={styles["projet_link"]} >
-                    <div className={styles["projet_link-only"]}>
+                <Link href={projet.lienGitHub} className={styles["projet_link-only"]}>
                     <Image src={logo_git} alt='logo github' height={80} width={80} className={styles["projet_link-img"]}  />
                     <p>Lien GitHub</p>
-                    </div>
+                    </Link>
                     <div>
-                    <div className={styles["projet_link-only"]}>
+                    {projet.lienSite && (
+                    <Link href={projet.lienSite} className={styles["projet_link-only"]}>
                     <Image src={logo_lien} alt='logo Lien' height={80} width={80} className={styles["projet_link-img"]} />
                     <p>Lien Vers le site</p>
-                    </div>
+                    </Link>
+                    )}
                     </div>
                 </div>
 

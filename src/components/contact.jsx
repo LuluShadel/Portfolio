@@ -85,7 +85,7 @@ const Contact = () => {
             </p>
         </div>
         </Link>
-        <Link href="#">     
+        <Link href="https://www.linkedin.com/in/lucile-thieulin-46a445222">     
         <div className={styles["card_reseau"]}>
         <FontAwesomeIcon icon={faLinkedin} className={styles["icon_contact"]}  />     
         <p>

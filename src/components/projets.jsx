@@ -66,6 +66,8 @@ const Projets = () => {
           </button>
           <button onClick={handleFiltre} value={"Javascript"}>Javascript</button>
           <button onClick={handleFiltre} value={"React"}>React</button>
+          <button onClick={handleFiltre} value={"Optimisation"}>Optimisation</button>
+          <button onClick={handleFiltre} value={"Debug"}>Debug</button>
         </div>
         <div className={styles["main_projet-div-projets"]}>
           {projetFiltre &&

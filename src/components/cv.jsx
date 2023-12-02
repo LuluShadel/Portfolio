@@ -25,7 +25,7 @@ const CV = () => {
                 <Image src={mini_line} alt='ligne orange' width={200}  />
                 </div>
             <div className={styles["main_cv-contain"]}>
-                <Link href="#">
+                <Link href="/CV_lucile_THIEULIN.pdf">
             <FontAwesomeIcon icon={faFile} className={styles['cv_icon']} />
             </Link>
                 <p>Pour tout connaître de mon parcours, télécharger mon Cv !</p>

@@ -63,6 +63,8 @@
         "client":"Entreprise leader de la location d'appartements entre particuliers en France.",
         "objectif":"Moderniser le site avec des animations de qualités, un code plus léger en single page grâce à React, une interface utilisateur plus intuitive",
         "description":"Refonte total du site réalisé il y longtemps en ASP.NET. Le but était de passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
+        "lienGitHub":"https://github.com/LuluShadel/kasa",
+        "lienSite": "https://kasa-projet8.netlify.app/",
         "tag":[
             {"name":"React","cover":"/react_logo.png"},
             {"name":"SASS","cover":"/sass_logo.png"},
@@ -80,6 +82,7 @@
         "client":"Particulier, Architecte d'intérieur",
         "objectif":"Présenter les travaux de l'architecte, lui permettre de rajouter ou supprimer des projets une fois qu'elle se connecte",
         "description":"Appel API afin de stocker les travaux, de pouvoir les supprimer ou bien en ajouter après que Sophie se soit identifié le tout en Javascript",
+        "lienGitHub":"https://github.com/LuluShadel/projet6",
         "tag":[
             {"name":"Javascript","cover":"/js_logo.webp"},
             {"name":"SASS","cover":"/sass_logo.png"}
@@ -96,6 +99,8 @@
         "client":"Start-up",
         "objectif":"développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
         "description":"Intégration de l'interface du site avec du code HTML et CSS d'après les maquettes desktop, tablette et mobile.",
+        "lienGitHub":"https://github.com/LuluShadel/projet6",
+        "lienSite":"https://book-projet3.netlify.app/",
         "tag":[
             {"name":"HTML","cover":"/html_logo.png"},
             {"name":"CSS","cover":"/css_logo.png"}
@@ -112,10 +117,50 @@
         "client":"Start-up New-yorkaise désirant s'installer sur le marchée Parisien",
         "objectif":"Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques, avec de belles animations pour une meilleure expérience utilisateur",
         "description":"En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !",
+       "lienGitHub":"https://github.com/LuluShadel/Projet4", 
+       "lienSite":"https://ohmyfood-projet4.netlify.app/",
         "tag":[
             {"name":"HTML","cover":"/html_logo.png"},
             {"name":"CSS","cover":"/css_logo.png"},
             {"name":"SASS","cover":"/sass_logo.png"}
+
+        ]
+     },
+
+     {
+        "title":"Nina Carducci Photocgraphe",
+         "cover":"/capture_ecran_carducci.png",
+        "width": 400, 
+        "height": 400,
+        "categorie":"Optimisation",
+        "bandeau":"/bandeau-carducci.png",
+        "client":"Particulier voulant rendre son site plus fluide, et obtenir un référencement local",
+        "objectif":"Améliorer et retravailler le site existant, rendre le site plus fluide. Augmenter le traffic grâce à un référencement local et un meilleur score SEO",
+        "description":"Ajouter un référencement local, travailler sur le format des images du site. Obtenir un score optimal sur l'audit Lighthouse.",
+       "lienGitHub":"https://github.com/LuluShadel/NinaCarducci", 
+       "lienSite":"https://nina-carducci-projet9.netlify.app/",
+        "tag":[
+            {"name":"HTML","cover":"/html_logo.png"},
+            {"name":"CSS","cover":"/css_logo.png"}
+
+        ]
+     },
+     {
+        "title":"77Event",
+         "cover":"/capture_ecran_77event.png",
+        "width": 400, 
+        "height": 400,
+        "categorie":"Debug",
+        "bandeau":"/bandeau-77event.png",
+        "client":"Agence évènementielle",
+        "objectif":"Retravailler la logique du site, réalisé par un autre developpeur n'ayant pas eu le temps de finir",
+        "description":"Debugger les différents problèmes et réaliser des tests unitaires, d'intégration et un cahier de recette end-to-end afin d'optimiser parfaitement le site.",
+       "lienGitHub":"https://github.com/LuluShadel/724Events", 
+       "lienSite":"https://77event.netlify.app/",
+        "tag":[
+            {"name":"React","cover":"/react_logo.png"},
+            {"name":"SASS","cover":"/sass_logo.png"}
+            
 
         ]
      }
