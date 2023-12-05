@@ -25,17 +25,21 @@ const Footer = () => {
     return (
         <div className={styles['footer_main']}>
           <div className={styles['footer_reseau']}>
-          <Link href="/CV_lucile_THIEULIN.pdf">
+          <Link href="/CV_lucile_THIEULIN.pdf" className={styles['footer-link']}>
             <FontAwesomeIcon icon={faFile} className={styles['icon_contact']} />
+           <p>CV</p> 
             </Link>
-            <Link href="mailto:lucile.thieulin96@gmail.com">
+            <Link href="mailto:lucile.thieulin96@gmail.com" className={styles['footer-link']}>
             <FontAwesomeIcon icon={faEnvelope} className={styles["icon_contact"]}/>
+           <p>Mail</p>
             </Link>
-            <Link href="https://www.linkedin.com/in/lucile-thieulin-46a445222">
+            <Link href="https://www.linkedin.com/in/lucile-thieulin-46a445222" className={styles['footer-link']}>
             <FontAwesomeIcon icon={faLinkedin} className={styles["icon_contact"]}  />
+            <p>LinkedIn</p>
             </Link>
-            <Link href="https://github.com/LuluShadel" >
+            <Link href="https://github.com/LuluShadel"  className={styles['footer-link']}>
             <FontAwesomeIcon icon={faGithub} className={styles["icon_contact"]}  />
+           <p>GitHub</p>
             </Link>
           </div>
           <p>
