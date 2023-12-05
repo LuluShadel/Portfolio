@@ -50,15 +50,15 @@ const Header = () => {
       <div className={styles["navBar"]}>
         <Link className={styles["navBar_link"]} href="/#Hero">
         <FontAwesomeIcon icon={faUser} className={styles["navBar_icon"]}/>
-          <p>{t("common:nav1")}</p>
+          <p>{t("nav1")}</p>
         </Link>
         <Link className={styles["navBar_link"]} href="/#Projets">
         <FontAwesomeIcon icon={faLightbulb} className={styles["navBar_icon"]}/>
-          <p>Projets</p>
+          <p>{t('nav2')}</p>
         </Link>
         <Link className={styles["navBar_link"]} href="/#Contact">
           <FontAwesomeIcon icon={faAt} className={styles["navBar_icon"]}/>
-          <p>Contact</p>
+          <p>{t('nav3')}</p>
         </Link>
       </div>
       

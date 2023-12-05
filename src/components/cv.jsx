@@ -1,7 +1,7 @@
 import styles from '../style/_cv.module.scss';
 import Image from 'next/image';
 import mini_line from "../../public/mini_line.png";
-import Link from 'next/link';
+
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,12 +9,14 @@ import { faFile } from '@fortawesome/free-regular-svg-icons';
 
 
 
+import { useTranslation } from 'next-i18next';
 
 
 
 
 const CV = () => {
 
+    const { t  } = useTranslation();
 
 
     return (
@@ -25,10 +27,12 @@ const CV = () => {
                 <Image src={mini_line} alt='ligne orange' width={200}  />
                 </div>
             <div className={styles["main_cv-contain"]}>
-                <Link href="/CV_lucile_THIEULIN.pdf">
+            <a href="/CV_lucile_THIEULIN.pdf" >
+                    
             <FontAwesomeIcon icon={faFile} className={styles['cv_icon']} />
-            </Link>
-                <p>Pour tout connaître de mon parcours, télécharger mon Cv !</p>
+            </a>
+            
+                <p>{t("common:cv_text")}</p>
             </div>
 </div>
     )

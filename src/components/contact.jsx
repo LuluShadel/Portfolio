@@ -17,12 +17,17 @@ import { faLinkedin
  import emailjs from '@emailjs/browser';
  import { useState } from 'react';
 
+ import { useTranslation } from 'next-i18next';
+
 
 
 // utilisation de EmailJS pour l'envoi des mails en front-end
 
 
 const Contact = () => {
+
+    const { t  } = useTranslation();
+
     const [formData, setFormData] = useState({
         user_name: '',
         user_email: '',
@@ -38,7 +43,7 @@ const Contact = () => {
       e.preventDefault();
 
       if (!formData.user_name || !formData.user_email || !formData.message) {
-        setError('Veuillez remplir tous les champs, que je puisse vous re-contacter.');
+        setError(t("common:btn-error-form"));
         return;
     }
 
@@ -57,11 +62,11 @@ const Contact = () => {
            'K40SqVeyLBYr6Q6g3')
         .then((result) => {
             console.log(result.text);
-            setSucces("Votre message à bien été envoyé. je reviendrais vite vers vous ! ")
+            setSucces(t('common:btn-succes'));
             setError('')
         }, (error) => {
             console.log(error.text);
-            setError('Une erreur s\'est produite lors de l\'envoi du formulaire.');
+            setError(t('common:btn-error-send'));
             setSucces("")
         });
     };
@@ -97,9 +102,9 @@ const Contact = () => {
 
 
     <div className={styles["main_contact--form"]} >
-        <p>Une idée ? <br />Un projet ? <br />Une information ? <br /> N&apos;hesitez pas et contacter moi !</p>
+        <p>{t("common:contact_text1")} <br />{t("common:contact_text2")} <br />{t("common:contact_text3")} <br /> {t("common:contact_text4")}</p>
         <form className={styles["formulaire"]} ref={form} onSubmit={sendEmail}>
-            <label htmlFor="nom">Nom </label>
+            <label htmlFor="nom">{t("common:input_name")} </label>
             <input 
             type='text' 
             id='nom'
@@ -136,7 +141,7 @@ const Contact = () => {
             
             <div className={styles["btn_submit"]}>
             <button type='submit' >
-              Envoyer
+              {t("common:btn-envoyer")}
             </button>
 </div>
         </form>

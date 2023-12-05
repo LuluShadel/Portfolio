@@ -5,15 +5,16 @@ import Image from 'next/image';
 import data from "../../public/data.json"
 
 import mini_line from "../../public/mini_line.png"
+import { useTranslation } from 'next-i18next';
 
 const Competence = () => {
 
-   
+    const { t  } = useTranslation();
 
     return (
         <div  className={styles["main_competence"]}>
             <div>
-                <h3>Compétences</h3>
+                <h3>{t("common:compet_title")}</h3>
                 <div className={styles["ligne-orange"]}>
                 <Image src={mini_line} alt='ligne orange' width={200} />
                 </div>
@@ -30,7 +31,7 @@ const Competence = () => {
                     />
                 ))}
             </div>
-            <p> D&apos;autres compétences à venir ! </p>
+            <p> {t("common:compet_text")}</p>
         </div>
     )
 }

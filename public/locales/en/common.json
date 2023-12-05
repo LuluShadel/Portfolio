@@ -1,3 +1,67 @@
+
 {
-    "nav1":"About"
+    "nav1":"About",
+    "nav2":"Projects",
+    "nav3":"Contact",
+
+    "hero_title":"Hello, Lucile developpeur web",
+    "hero_text":"Always looking for new challenge I started by learning Javascript but I quickly felt a great interest in React and so I got my diploma in web development however I do not intend to stop there! Designing a site, starting from a few ideas on a piece of paper and then making models to finally see it take shape again is a real pleasure. I like to add small details to make each site a unique piece.",
+    "hero_link":"Contact me",
+    "hero_link_text":"and let's talk about your project !",
+
+    "compet_title":"skills",
+    "compet_text":"More skills to come!",
+
+    "projet_title":"Projects",
+    "projet_text":"Here are my projects to date, and those in progress. Find the link to the site or gitHub to learn more about each project.",
+   
+    "btn-tous":"All",
+    "btn-plus":"See more",
+    "btn-moins":"See less",
+   
+    "cv_title":"CV",
+    "cv_text":"To know everything about my career, download my resume!",
+
+    "contact_title":"Contact",
+    "contact_text1":"any ideas?",
+    "contact_text2":"a new project?",
+    "contact_text3":"an information?",
+    "contact_text4":" Do not hesitate and contact me!",
+    "input_name": "Name",
+    "btn-envoyer": "Send",
+    "btn-succes":"Your message has been sent. I would quickly come back to you!",
+    "btn-error-send":"An error occurred when submitting the form.",
+    "btn-error-form":"Please fill in all fields, so I can contact you again",
+
+    "modal-qui":"Client :",
+    "modal-description":"Project ",
+    "modal-objectif":"Objective",
+
+    "projet.1.client":"Leading company in the rental of apartments between individuals in France.",
+    "projet.1.description":"Modernize the site with quality animations, lighter single page code thanks to React, a more intuitive user interface",
+    "projet.1.objectif":"Total redesign of the site realized a long time ago in ASP.NET. The goal was to move to a full stack in JavaScript with NodeJS on the back-end side, and React on the front-end side",
+
+    "projet.2.client":"Private individual, Interior designer",
+    "projet.2.description":"Present the architect’s work, allow him to add or remove projects once he connects",
+    "projet.2.objectif":"API call to store the work, to be able to delete it or to add it after Sophie has identified herself in Javascript",
+
+    "projet.3.client":"Start-up",
+    "projet.3.description":"Develop a website that allows users to find accommodation and activities in the city of their choice.",
+    "projet.3.objectif":"Integration of the site interface with HTML and CSS code according to desktop, tablet and mobile models.",
+
+    "projet.4.client":"New York start-up wishing to settle on the Parisian market",
+    "projet.4.description":"Develop a “mobile first” site that lists gourmet restaurant menus, with beautiful animations for a better user experience",
+    "projet.4.objectif":"In addition to the classic reservation systems, guests will be able to compose the menu of their meal so that the dishes are ready on arrival. No more waiting times at the restaurant!",
+
+    "projet.5.client":"Individual, professional photographer",
+    "projet.5.description":"Improve and rework the existing site, make the site more fluid. Increase traffic through local SEO and a better SEO score",
+    "projet.5.objectif":"Add local referencing, work on the format of the images of the site. Get an optimal score on the Lighthouse audit",
+
+    "projet.6.client":"Event agency",
+    "projet.6.description":"Rework the logic of the site, made by another developer who did not have time to finish",
+    "projet.6.objectif":"Debug the various problems and perform unit tests, integration and an end-to-end recipe book to optimize the site perfectly."
+
+
 }
+
+   

@@ -5,8 +5,11 @@ import { useState, useEffect } from "react";
 import mini_line from "../../public/mini_line.png";
 
 import Modal from "./modal";
+import { useTranslation } from 'next-i18next';
 
 const Projets = () => {
+  const { t  } = useTranslation();
+
   const [projetsVisibles, setProjetsVisibles] = useState(3);
   const [afficherTousLesProjets, setAfficherTousLesProjets] = useState(false);
   const [projetFiltre, setProjetFiltre] = useState(null);
@@ -52,15 +55,13 @@ const Projets = () => {
   return (
     <div className={styles["main_projets"]} id="Projets">
       <div className={styles["main_projets-div"]}>
-        <h3>Projets</h3>
+        <h3>{t("common:projet_title")}</h3>
         <div>
           <Image src={mini_line} alt="ligne orange" width={200} className={styles["ligne-orange"]} />
         </div>
-        <p>
-          Voici mes projets réalisés à ce jour, et ceux en cours de réalisation. Retrouver le lien vers le site ou bien le gitHub pour en apprendre plus sur chaques projets.  
-        </p>
+        <p>{t("common:projet_text")} </p>
         <div className={styles["main_projet-div-filtres"]}>
-            <button onClick={handleFiltre} value={"tous"} >Tous</button>
+            <button onClick={handleFiltre} value={"tous"} >{t('common:btn-tous')}</button>
           <button onClick={handleFiltre} value={"HTML/CSS"}>
             HTML/CSS
           </button>
@@ -92,7 +93,7 @@ const Projets = () => {
         </div>
         {data.projets.length > 3 && (
           <button onClick={afficherTousLesProjets ? handleVoirMoins : handleVoirPlus} className={styles["button-plus-moins"]}>
-            {afficherTousLesProjets ? 'Voir moins' : 'Voir plus'}
+            {afficherTousLesProjets ? <p> {t("common:btn-moins")} </p> : <p>{t("common:btn-plus")} </p>}
           </button>
         )}
       </div>
