@@ -88,6 +88,15 @@ button:hover {
          gap: 2em;
          padding : 3em 2em;
         }
+        .main_projet-div{
+        &:hover {
+          background: rgb(239, 183, 140);
+          border-radius: 20px;
+          cursor: pointer;
+            
+          
+        }
+      }
 
     }
 

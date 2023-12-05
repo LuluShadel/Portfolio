@@ -73,7 +73,7 @@ const Projets = () => {
         <div className={styles["main_projet-div-projets"]}>
           {projetFiltre &&
             projetFiltre.slice(0, projetsVisibles).map((projet, index) => (
-              <div key={index} onClick={() => handleModalOpen(projet)}>
+              <div key={index} onClick={() => handleModalOpen(projet)} className={styles["main_projet-div"]}>
               <Image
                 key={index}
                 src={projet.cover}

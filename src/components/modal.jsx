@@ -51,13 +51,13 @@ const Modal = ({projet,onClose}) => {
                 <div className={styles["projet_link"]} >
                 <Link href={projet.lienGitHub} className={styles["projet_link-only"]}>
                     <Image src={logo_git} alt='logo github' height={80} width={80} className={styles["projet_link-img"]}  />
-                    <p>Lien GitHub</p>
+                    <p>{t('modal-lien-git')}</p>
                     </Link>
                     <div>
                     {projet.lienSite && (
                     <Link href={projet.lienSite} className={styles["projet_link-only"]}>
                     <Image src={logo_lien} alt='logo Lien' height={80} width={80} className={styles["projet_link-img"]} />
-                    <p>Lien Vers le site</p>
+                    <p>{t('modal-lien-site')}</p>
                     </Link>
                     )}
                     </div>
