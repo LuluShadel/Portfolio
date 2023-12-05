@@ -33,9 +33,11 @@
     "btn-error-send":"An error occurred when submitting the form.",
     "btn-error-form":"Please fill in all fields, so I can contact you again",
 
-    "modal-qui":"Client :",
+    "modal-qui":"Client",
     "modal-description":"Project ",
     "modal-objectif":"Objective",
+    "modal-lien-git":"Link to GitHub",
+    "modal-lien-site":"Link to the website",
 
     "projet.1.client":"Leading company in the rental of apartments between individuals in France.",
     "projet.1.description":"Modernize the site with quality animations, lighter single page code thanks to React, a more intuitive user interface",
