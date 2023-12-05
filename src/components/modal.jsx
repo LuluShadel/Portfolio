@@ -9,11 +9,14 @@ import { faXmark
  import Image from 'next/image';
  import Link from 'next/link';
 
+ import { useTranslation } from 'next-i18next';
+
  
 
 
 const Modal = ({projet,onClose}) => { 
     console.log(projet)
+    const { t  } = useTranslation("");
     return (
         <div className={styles['modal-main']}>
             <div className={styles["modal-content"]}>
@@ -30,18 +33,18 @@ const Modal = ({projet,onClose}) => {
                 <div className={styles["text_and_link"]}>
                 <div className={styles["modal-content-text"]}>
                 <div className={styles["text"]}>
-                    <h3>Pour qui ? </h3>
-                    <p>{projet.client}
+                    <h3>{t("common:modal-qui")} </h3>
+                    <p>{t(`projet.${projet.id}.client`)}
                     </p>
                 </div>
                 <div className={styles["text"]}>
-                    <p>{projet.description}
+                <p>{t(`projet.${projet.id}.description`)}
                     </p>
-                    <h3 className={styles["margin-left"]}>Le projet ?</h3>
+                    <h3 className={styles["margin-left"]}>{t("common:modal-description")}</h3>
                 </div>
                 <div className={styles["text"]}>
-                    <h3>L&apos;objectif ?</h3>
-                    <p>{projet.objectif}
+                    <h3>{t("common:modal-objectif")}</h3>
+                    <p>{t(`projet.${projet.id}.objectif`)}
                     </p>
                 </div>
                 </div>
@@ -62,7 +65,7 @@ const Modal = ({projet,onClose}) => {
 
                 </div>
                 <div className={styles["section_tag"]} >
-                <p> Ce que j&apos;ai utilisé : </p>
+                
                 <div className={styles["tag_contain"]}>
                 {projet.tag.map((tag,index)=> (
                     

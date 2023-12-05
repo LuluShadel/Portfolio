@@ -123,6 +123,11 @@ button:hover {
               -webkit-user-select: none;
               touch-action: manipulation;
               align-self: center;
+
+              p{
+                margin: 0;
+                font-size: 1em;
+              }
             }
             
             .button-plus-moins:hover,
