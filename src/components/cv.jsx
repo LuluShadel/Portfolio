@@ -28,7 +28,7 @@ const CV = () => {
                 </div>
             <div className={styles["main_cv-contain"]}>
             <a href="/CV_lucile_THIEULIN.pdf">
-             <p>CV</p>
+             <p className={styles["cv"]} >CV</p>
 
                 
                     
