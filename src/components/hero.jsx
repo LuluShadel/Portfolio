@@ -17,8 +17,7 @@ const Hero = () => {
   
   return (
     <div className={styles['hero-main']} id='Hero'>
-      <div className={styles['fancy']}>
-        <div className={styles['hero-after']}>
+        <div className={styles['hero']}>
         <Image src={photo} alt="photo de profil lucile" className={styles['img_profil']} />
           <div className={styles['hero_text']}>
           <h2>{t('hero_title')}</h2>
@@ -29,7 +28,7 @@ const Hero = () => {
           </div>
           
         </div>
-      </div>
+    
     </div>
   );
 };

@@ -16,58 +16,15 @@
     
     }
 
-    .fancy {
-        --offset: 10px;
-        background-color: #f0f0f0;
-        position: relative;
-        height: 110vh;
-        width: 100wh;
-        max-width: 100%;
-        overflow: hidden;
-        box-shadow: 9px 6px 19px -5px #000000 ;
-        border-radius: 50px;
-       
+   
 
-    }
-    
-    .fancy::before { 
-        content: '';
-        background: conic-gradient(transparent 270deg, white, orange);
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        aspect-ratio: 1;
-        width: 100%;
-        animation: rotate 2s linear infinite;
-    }
-    
-    .fancy::after {
-        content: '';
-        background: inherit;
-        border-radius: inherit;
-        position: absolute;
-        inset: var(--offset);
-        height: calc(100% - 2 * var(--offset));
-        width: calc(100% - 2 * var(--offset));
-    }
-    
-    @keyframes rotate {
-        from {
-            transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
-        }
-    
-        to {
-            transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
-        }
-    }
-}
-
-.hero-after{
-    background: transparent;
-    position: absolute;
-    inset: 0;
-    z-index: 10;
+.hero{
+    background-color: #f0f0f0;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 9px 6px 19px -5px #000000;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,6 +66,7 @@
         box-shadow: 9px 6px 19px -5px #000000;
         border: 2px solid black;
         border-radius: 50%;
+        margin-top: 1em;
         @media (min-width : 768px) {
             width: 50%;
             height: 50%;
@@ -127,12 +85,12 @@
        font-family: 'arvo',sans-serif;
        text-align: justify;
        @media (min-width : 768px) {
-        font-size: 1.7em;
+        font-size: 1.4em;
         margin-left: 3em;
         width: 70%;
        }
        @media (max-width : 1500px) {
-        font-size: 1.1em;
+        font-size: 0.8em;
         width: 90%;
        }
     }
@@ -147,7 +105,7 @@
 .hero_icon{
     background: transparent;
     color: #FF9538;
-    width: 2em;
+    width: 1em;
     margin-top: 1em;
     animation: bounce 0.35s ease infinite alternate;
     @media (min-width : 768px) {
@@ -165,5 +123,5 @@
 }
 
 
-
+}
 
