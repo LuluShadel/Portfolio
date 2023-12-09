@@ -9,7 +9,7 @@ import Switchlangue from '../components/SwitchLanguage';
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-
+import "../../public/lucile_thieulin.webp"
 
 
 
@@ -26,6 +26,13 @@ import Head from 'next/head';
         <title>Lucile Portfolio</title>
         <meta name="description" content="Lucile's Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+	<meta property="og:title" content="Portfolio Lucile THIEULIN "/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://portfolio-thieulin.vercel.app/fr"/>
+	<meta property="og:image" content="../../public/lucile_thieulin.webp"/>
+	<meta property="og:description" content="Mon portfolio developpeur front end React"/>
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
