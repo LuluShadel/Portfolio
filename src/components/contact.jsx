@@ -94,7 +94,7 @@ const Contact = () => {
         <div className={styles["card_reseau"]}>
         <FontAwesomeIcon icon={faLinkedin} className={styles["icon_contact"]}  />     
         <p>
-            Lien LinkedIn
+            LinkedIn
             </p>
         </div>
         </Link>

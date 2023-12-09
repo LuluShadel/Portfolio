@@ -5,7 +5,7 @@
     "nav3":"Contact",
 
     "hero_title":"Bonjour, Lucile developpeur web",
-    "hero_text":"Toujours à la recherche de nouveau challenge j'ai débuté par l'apprentissage de Javascript mais j'ai très vite éprouvé un grand intérêt pour React et j'ai donc obtenu mon diplôme de developpeur web cependant je ne compte pas m'arrêter la ! Concevoir un site, partant de quelques idées sur un morceau de papier puis faire des maquettes pour enfin le voir prendre forme réelement est un vrai plaisir. J'aime ajouter des petits détails pour faire de chaques sites une pièce unique.",
+    "hero_text":"Toujours à la recherche de nouveaux challenges, j'ai débuté par l'apprentissage de Javascript mais j'ai très vite éprouvé un grand intérêt pour React et j'ai donc obtenu mon diplôme de developpeur web cependant je ne compte pas m'arrêter la ! Concevoir un site, partant de quelques idées sur un morceau de papier puis faire des maquettes pour enfin le voir prendre forme est un vrai plaisir. J'aime ajouter des petits détails pour faire de chaque site une pièce unique.",
     "hero_link":"Contactez-moi",
     "hero_link_text":"et parlons de votre projet !",
 
@@ -13,25 +13,25 @@
     "compet_text":"D'autres compétences à venir !",
 
     "projet_title":"Projets",
-    "projet_text":"Voici mes projets réalisés à ce jour, et ceux en cours de réalisation. Retrouver le lien vers le site ou bien le gitHub pour en apprendre plus sur chaques projets.",
+    "projet_text":"Voici mes projets réalisés à ce jour, et ceux en cours de réalisation. Retrouvez le lien vers le site ou bien le gitHub pour en apprendre plus sur chaque projet.",
    
     "btn-tous":"Tous",
     "btn-plus":"Voir plus",
     "btn-moins":"Voir moins",
    
     "cv_title":"CV",
-    "cv_text":"Pour tout connaître de mon parcours, télécharger mon Cv !",
+    "cv_text":"Pour tout connaître de mon parcours, téléchargez mon Cv !",
 
     "contact_title":"Contact",
     "contact_text1":"une idée ?",
     "contact_text2":"un projet ?",
     "contact_text3":"une information ?",
-    "contact_text4":" N'hesitez pas et contacter moi !",
+    "contact_text4":" N'hesitez pas et contactez moi !",
     "input_name": "Nom",
     "btn-envoyer": "Envoyer",
     "btn-succes":"Votre message à bien été envoyé. je reviendrais vite vers vous !",
     "btn-error-send":"Une erreur s'est produite lors de l'envoi du formulaire.",
-    "btn-error-form":"Veuillez remplir tous les champs, que je puisse vous re-contacter",
+    "btn-error-form":"Veuillez remplir tous les champs afin que je puisse vous re-contacter",
 
     "modal-qui":"Le client :",
     "modal-description":"Le projet",
@@ -40,7 +40,7 @@
     "modal-lien-site":"Lien vers le site",
 
     "projet.1.client":"Entreprise leader de la location d'appartements entre particuliers en France.",
-    "projet.1.description":"Moderniser le site avec des animations de qualités, un code plus léger en single page grâce à React, une interface utilisateur plus intuitive",
+    "projet.1.description":"Moderniser le site avec des animations de qualité, un code plus léger en single page grâce à React, une interface utilisateur plus intuitive",
     "projet.1.objectif":"Refonte total du site réalisé il y longtemps en ASP.NET. Le but était de passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
 
     "projet.2.client":"Particulier, Architecte d'intérieur",

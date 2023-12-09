@@ -19,7 +19,6 @@ h3{
 
 p{
     text-align: center;
-    font-family: 'arvo',sans-serif;
     margin-top: 1.5em;
     font-size: 1em;
     @media (min-width : 768px) {
@@ -30,6 +29,10 @@ p{
   small{
     color: red;
     margin-bottom: 2em;
+  }
+
+  button, label, p, select {
+    font-family: 'arvo',sans-serif;
   }
 
 

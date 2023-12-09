@@ -77,7 +77,7 @@ const Projets = () => {
               <Image
                 key={index}
                 src={projet.cover}
-                alt="projets"
+                alt={projet.title}
                 width={projet.width}
                 height={projet.height}
                 className={styles["projet"]}
