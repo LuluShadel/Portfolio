@@ -10,7 +10,7 @@
   overflow: hidden;
   display: flex;
   justify-content: space-between;
-  height: 80px;
+ 
   
 
 
@@ -87,7 +87,10 @@
      }
     }
       
-     
+  .navBar-langue{
+display: flex;
+flex-direction: column;
+  } 
 
 
   .navBar{

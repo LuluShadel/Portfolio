@@ -1,8 +1,7 @@
 
 
 .hero-main{
-    margin-top: 2em;
-    padding: 1em;
+    padding: 8em 1em 1em 1em;
     position: relative;
     height: 100%;
     background-image: url(/_next/static/media/fond.818f1127.avif);
@@ -11,15 +10,8 @@
     background-position: center;
     overflow: hidden;
   @media (min-width : 768px) {
-  padding: 1em 4em;
-  }
-
-    @media (min-width : 768px) {
-    padding: 1em 4em;
-    
-    }
-
-   
+  padding: 8em 4em 1em 4em ;
+  }   
 
 .hero{
     background-color: #f0f0f0;

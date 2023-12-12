@@ -5,7 +5,7 @@ import CV from '../components/cv';
 import Contact from '../components/contact';
 import Header from '../components/header';
 import Footer from '../components/footer';
-import Switchlangue from '../components/SwitchLanguage';
+
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
@@ -37,8 +37,8 @@ import Head from 'next/head';
       </Head>
       <div>
 
-        <Header t={t} />
-        <Switchlangue />
+        <Header />
+        
        
         <Hero />
         

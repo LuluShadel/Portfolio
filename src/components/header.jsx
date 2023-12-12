@@ -7,6 +7,8 @@ import Link from "next/link";
 import logo from "../../public/logo_git_hub.png"
 import Line from "../../public/Line.png"
 
+import SwitchLangue from "./SwitchLanguage";
+
 
 
 import { useTranslation } from 'next-i18next';
@@ -47,6 +49,8 @@ const Header = () => {
       
 
 
+    <div className={styles["navBar-langue"]}> 
+
       <div className={styles["navBar"]}>
         <Link className={styles["navBar_link"]} href="/#Hero">
         <FontAwesomeIcon icon={faUser} className={styles["navBar_icon"]}/>
@@ -60,6 +64,9 @@ const Header = () => {
           <FontAwesomeIcon icon={faAt} className={styles["navBar_icon"]}/>
           <p>{t('nav3')}</p>
         </Link>
+      </div>
+
+      <SwitchLangue />
       </div>
       
     </div>
