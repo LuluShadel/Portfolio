@@ -27,7 +27,7 @@ const CV = () => {
                 <Image src={mini_line} alt='ligne orange' width={200}  />
                 </div>
             <div className={styles["main_cv-contain"]}>
-            <a href="/CV_lucile_THIEULIN.pdf">
+            <a href="/CV_lucile_THIEULIN.pdf" target="_blank">
              <p className={styles["cv"]} >CV</p>
 
                 

@@ -1,14 +1,8 @@
 {
-"competence" :[ 
+"competence-frontEnd" :[ 
 {
     "name":"SASS",
     "logo":"/sass_logo.png",
-    "width": 50, 
-    "height": 50
-},
-{
-    "name" : "NodeJS",
-    "logo":"/node_logo.png",
     "width": 50, 
     "height": 50
 },
@@ -18,12 +12,7 @@
     "width": 50, 
     "height": 50
 },
-{
-    "name": "gitHub",
-    "logo": "/github_logo.png",
-    "width": 50, 
-    "height": 50
-},
+
 {
     "name":"react",
     "logo":"/react_logo.png",
@@ -36,18 +25,36 @@
     "width": 50, 
     "height": 50
 },
-{
-    "name":"figma",
-    "logo":"/figma_logo.svg",
-    "width": 50, 
-    "height": 50
-},
+
 {
     "name":"JS",
     "logo":"/js_logo.webp",
     "width": 50, 
     "height": 50
 }
+],
+"competence-backEnd" :[ 
+    {
+        "name" : "NodeJS",
+        "logo":"/node_logo.png",
+        "width": 50, 
+        "height": 50
+    }
+],
+"competence-autre" :[ 
+    
+    {
+        "name":"figma",
+        "logo":"/figma_logo.svg",
+        "width": 50, 
+        "height": 50
+    },
+    {
+        "name": "gitHub",
+        "logo": "/github_logo.png",
+        "width": 50, 
+        "height": 50
+    }
 ],
 
 
@@ -125,7 +132,7 @@
          "cover":"/capture_ecran_carducci.png",
         "width": 400, 
         "height": 400,
-        "categorie":"Optimisation",
+        "categorie":["Optimisation","HTML/CSS"],
         "bandeau":"/bandeau-carducci.png",
        "lienGitHub":"https://github.com/LuluShadel/NinaCarducci", 
        "lienSite":"https://nina-carducci-projet9.netlify.app/",
@@ -141,7 +148,7 @@
          "cover":"/capture_ecran_77event.png",
         "width": 400, 
         "height": 400,
-        "categorie":"Debug",
+        "categorie": ["Debug", "React"],
         "bandeau":"/bandeau-77event.png",
        "lienGitHub":"https://github.com/LuluShadel/724Events", 
        "lienSite":"https://77event.netlify.app/",
