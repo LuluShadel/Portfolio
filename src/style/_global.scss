@@ -2,6 +2,10 @@ body{
     margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h2{
     font-family:'Indie Flower', cursive;
     font-size: 2.5em;

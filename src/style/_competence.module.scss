@@ -46,8 +46,8 @@
         transition: transform 2s ease;
     transform:rotate(360deg);
 
-    @for $i from 1 through 8 {
-      $delay: (1500ms / 8) * $i;
+    @for $i from 1 through 11 {
+      $delay: (1500ms / 11) * $i;
   
       &:nth-child(#{$i}) {
         animation: rotateIcon 3000ms ease-in-out $delay infinite alternate;

@@ -1,5 +1,19 @@
 {
 "competence" :[ 
+    {
+        "name": "HTML",
+        "logo":"/html_logo.png",
+        "width": 50, 
+        "height": 50
+
+    },
+    {
+        "name": "CSS",
+        "logo":"/css_logo.png",
+        "width": 50, 
+        "height": 50
+
+    },
 {
     "name":"SASS",
     "logo":"/sass_logo.png",
@@ -7,12 +21,17 @@
     "height": 50
 },
 {
-    "name" : "nextJs",
-    "logo" : "/next_logo.svg",
+    "name":"Tailwind",
+    "logo":"/logo_tailwind.png",
     "width": 50, 
     "height": 50
 },
-
+{
+    "name":"JS",
+    "logo":"/js_logo.webp",
+    "width": 50, 
+    "height": 50
+},
 {
     "name":"react",
     "logo":"/react_logo.png",
@@ -25,13 +44,17 @@
     "width": 50, 
     "height": 50
 },
-
 {
-    "name":"JS",
-    "logo":"/js_logo.webp",
+    "name" : "nextJs",
+    "logo" : "/next_logo.svg",
     "width": 50, 
     "height": 50
 },
+
+
+
+
+
     {
         "name" : "NodeJS",
         "logo":"/node_logo.png",
