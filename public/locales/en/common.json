@@ -33,37 +33,26 @@
     "btn-error-send":"An error occurred when submitting the form.",
     "btn-error-form":"Please fill in all fields, so I can contact you again",
 
-    "modal-qui":"Client",
-    "modal-description":"Project ",
-    "modal-objectif":"Objective",
     "modal-lien-git":"Link to GitHub",
     "modal-lien-site":"Link to the website",
 
-    "projet.1.client":"Leading company in the rental of apartments between individuals in France.",
-    "projet.1.description":"Modernize the site with quality animations, lighter single page code thanks to React, a more intuitive user interface",
-    "projet.1.objectif":"Total redesign of the site realized a long time ago in ASP.NET. The goal was to move to a full stack in JavaScript with NodeJS on the back-end side, and React on the front-end side",
+    "projet.1.titre": "Real estate rental web application with React",
+    "projet.1.description":"Total redesign of the site to move to a full stack in JavaScript with NodeJS on the back-end side, and React on the front-end side. Development of the entire application, React components, React Router routes, following the Figma models (responsives). Data is retrieved dynamically from a JSON file. Animations are made with SASS",
 
-    "projet.2.client":"Private individual, Interior designer",
-    "projet.2.description":"Present the architect’s work, allow him to add or remove projects once he connects",
-    "projet.2.objectif":"API call to store the work, to be able to delete it or to add it after Sophie has identified herself in Javascript",
+    "projet.2.titre": "Dynamic web page with Javascript",
+    "projet.2.description":"Website of a professional photographer. Including a presentation page of its projects recover from an API (Swagger) and which can be sorted through a filter, a login page of the site administrator, a modal to add new projects and store them and a modal to delete them. ",
 
-    "projet.3.client":"Start-up",
-    "projet.3.description":"Develop a website that allows users to find accommodation and activities in the city of their choice.",
-    "projet.3.objectif":"Integration of the site interface with HTML and CSS code according to desktop, tablet and mobile models.",
+    "projet.3.titre": "Home page of a travel agency",
+    "projet.3.description":"Home page development in HTML and CSS. Responsive page according to figma models in desktop, tablet and mobile.",
 
-    "projet.4.client":"New York start-up wishing to settle on the Parisian market",
-    "projet.4.description":"Develop a “mobile first” site that lists gourmet restaurant menus, with beautiful animations for a better user experience",
-    "projet.4.objectif":"In addition to the classic reservation systems, guests will be able to compose the menu of their meal so that the dishes are ready on arrival. No more waiting times at the restaurant!",
+    "projet.4.titre": "Mobile site with animation ",
+    "projet.4.description":"Gastronomic restaurant site in mobile first. 4 menus are available and it is possible to mark your preference thanks to the heart icon. At the click of the menu the dishes appear with an animation made in SASS. An animation simulating a loading is present at loading. ",
 
-    "projet.5.client":"Individual, professional photographer",
-    "projet.5.description":"Improve and rework the existing site, make the site more fluid. Increase traffic through local SEO and a better SEO score",
-    "projet.5.objectif":"Add local referencing, work on the format of the images of the site. Get an optimal score on the Lighthouse audit",
+    "projet.5.titre": "Optimize the SEO of a photographer site",
+    "projet.5.description":"Site to show the work of a professional photographer with optimization problems causing problems for users. I realized: a global optimization of the site both on performance and SEO, the implementation of local referencing using Schema.org, the addition of metas for social networks, the optimization of the accessibility of the site and finally I recorded all the changes made in an optimization report.",
 
-    "projet.6.client":"Event agency",
-    "projet.6.description":"Rework the logic of the site, made by another developer who did not have time to finish",
-    "projet.6.objectif":"Debug the various problems and perform unit tests, integration and an end-to-end recipe book to optimize the site perfectly."
-
-
+    "projet.6.titre": "Debugging the site of an event agency",
+    "projet.6.description":"The site was started by a developer who had to leave. The site is functional, but some bugs hinder the good use by visitors. So I performed tests (integrations, units, end-to-end) to correct bugs and avoid future problems. I also made a recipe book. "
 }
 
    
