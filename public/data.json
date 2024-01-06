@@ -1,5 +1,5 @@
 {
-"competence-frontEnd" :[ 
+"competence" :[ 
 {
     "name":"SASS",
     "logo":"/sass_logo.png",
@@ -31,17 +31,14 @@
     "logo":"/js_logo.webp",
     "width": 50, 
     "height": 50
-}
-],
-"competence-backEnd" :[ 
+},
     {
         "name" : "NodeJS",
         "logo":"/node_logo.png",
         "width": 50, 
         "height": 50
-    }
-],
-"competence-autre" :[ 
+    },
+ 
     
     {
         "name":"figma",
@@ -70,11 +67,7 @@
         "categorie":"React",
         "lienGitHub":"https://github.com/LuluShadel/kasa",
         "lienSite": "https://kasa-projet8.netlify.app/",
-        "tag":[
-            {"name":"React","cover":"/react_logo.png"},
-            {"name":"SASS","cover":"/sass_logo.png"},
-            {"name":"Node.js","cover":"/node_logo.png"}
-
+        "competence":[ "React", "Animation", "Responsive","Figma"
         ]
      },
      {
@@ -86,10 +79,7 @@
         "categorie":"Javascript",
         "bandeau":"/bandeau-sophie.png",
         "lienGitHub":"https://github.com/LuluShadel/projet6",
-        "tag":[
-            {"name":"Javascript","cover":"/js_logo.webp"},
-            {"name":"SASS","cover":"/sass_logo.png"}
-
+        "competence":[ "Javascript", "Appel API", "Authentification","Figma"
         ]
      },
      {
@@ -102,10 +92,7 @@
         "bandeau":"/bandeau-booki.png",
         "lienGitHub":"https://github.com/LuluShadel/projet6",
         "lienSite":"https://book-projet3.netlify.app/",
-        "tag":[
-            {"name":"HTML","cover":"/html_logo.png"},
-            {"name":"CSS","cover":"/css_logo.png"}
-
+        "competence":[ "HTML/CSS","Responsive","Figma"
         ]
      },
      {
@@ -118,11 +105,7 @@
         "bandeau":"/bandeau-ohMyFood.png",
        "lienGitHub":"https://github.com/LuluShadel/Projet4", 
        "lienSite":"https://ohmyfood-projet4.netlify.app/",
-        "tag":[
-            {"name":"HTML","cover":"/html_logo.png"},
-            {"name":"CSS","cover":"/css_logo.png"},
-            {"name":"SASS","cover":"/sass_logo.png"}
-
+       "competence":[ "HTML/CSS", "Animation", "Responsive","Figma"
         ]
      },
 
@@ -136,10 +119,7 @@
         "bandeau":"/bandeau-carducci.png",
        "lienGitHub":"https://github.com/LuluShadel/NinaCarducci", 
        "lienSite":"https://nina-carducci-projet9.netlify.app/",
-        "tag":[
-            {"name":"HTML","cover":"/html_logo.png"},
-            {"name":"CSS","cover":"/css_logo.png"}
-
+       "competence":[ "HTML/CSS", "Optimisation", "SEO","Méta reseaux sociaux"
         ]
      },
      {
@@ -152,12 +132,9 @@
         "bandeau":"/bandeau-77event.png",
        "lienGitHub":"https://github.com/LuluShadel/724Events", 
        "lienSite":"https://77event.netlify.app/",
-        "tag":[
-            {"name":"React","cover":"/react_logo.png"},
-            {"name":"SASS","cover":"/sass_logo.png"}
-            
-
+       "competence":[ "React", "Tests d'intégration","Tests unitaires", "Cahier de recette"
         ]
+        
      }
 
 ]

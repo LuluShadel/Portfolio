@@ -33,36 +33,26 @@
     "btn-error-send":"Une erreur s'est produite lors de l'envoi du formulaire.",
     "btn-error-form":"Veuillez remplir tous les champs afin que je puisse vous re-contacter",
 
-    "modal-qui":"Le client :",
-    "modal-description":"Le projet",
-    "modal-objectif":"Objectif",
     "modal-lien-git":"Lien vers GitHub",
     "modal-lien-site":"Lien vers le site",
 
-    "projet.1.client":"Entreprise leader de la location d'appartements entre particuliers en France.",
-    "projet.1.description":"Moderniser le site avec des animations de qualité, un code plus léger en single page grâce à React, une interface utilisateur plus intuitive",
-    "projet.1.objectif":"Refonte total du site réalisé il y longtemps en ASP.NET. Le but était de passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
+    "projet.1.titre": "Application web de location immobilière avec React",
+    "projet.1.description":"Refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Développement de l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives). Les données sont récupérées dynamiquement depuis un fichier JSON. Les animations sont réalisés avec SASS",
 
-    "projet.2.client":"Particulier, Architecte d'intérieur",
-    "projet.2.description":"Présenter les travaux de l'architecte, lui permettre de rajouter ou supprimer des projets une fois qu'elle se connecte",
-    "projet.2.objectif":"Appel API afin de stocker les travaux, de pouvoir les supprimer ou bien en ajouter après que Sophie se soit identifié le tout en Javascript",
+    "projet.2.titre": "Page web dynamique avec Javascript",
+    "projet.2.description":"Site web d'une photographe professionelle. Comprenant une page de présentation de ses projets récupérer depuis une API (Swagger) et qui peuvent être trier grâce à un filtre, une page de connexion de l'administrateur du site, une modal permettant d'ajouter de nousveaux projet et de les stocker et une modal permettant de les supprimer. ",
 
-    "projet.3.client":"Start-up",
-    "projet.3.description":"Développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-    "projet.3.objectif":"Intégration de l'interface du site avec du code HTML et CSS d'après les maquettes desktop, tablette et mobile.",
+    "projet.3.titre": "Page d'accueil d'une agence de voyage",
+    "projet.3.description":"Developpement de la page d'accueil en HTML et CSS. Page responsive selon les maquettes figma en desktop, tablette et mobile.",
 
-    "projet.4.client":"Start-up New-yorkaise désirant s'installer sur le marchée Parisien",
-    "projet.4.description":"Développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques, avec de belles animations pour une meilleure expérience utilisateur",
-    "projet.4.objectif":"En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !",
+    "projet.4.titre": "Site mobile avec animation ",
+    "projet.4.description":"Site de restauration gastronomique en mobile first. 4 menus sont disponibles et il est possible de marquer sa préférence grâce à l'icône de coeur. Au clic des menu les plats apparaissent avec une animation faite en SASS. Une animation simulant un loading est présente au chargement. ",
 
-    "projet.5.client":"Particulier, photographe professionel",
-    "projet.5.description":"Améliorer et retravailler le site existant, rendre le site plus fluide. Augmenter le traffic grâce à un référencement local et un meilleur score SEO",
-    "projet.5.objectif":"Ajouter un référencement local, travailler sur le format des images du site. Obtenir un score optimal sur l'audit Lighthouse",
+    "projet.5.titre": "Optimisez le référencement d'un site de photographe",
+    "projet.5.description":"Site pour montrer le traval d'un photographe professionelle comportant des soucis d'optimisation entrainant des problèmes pour les utilisateurs. j'ai donc réalisé : une optimisation globale du site tant sur les performances que sur le SEO, la mise en place du référencement local en utilisant Schema.org, l'ajout des metas pour les réseaux sociaux, l'optimisation de l'accessibilité du site et enfin j'ai consigné toutes les modifications apportés dans un rapport d'optimisation.",
 
-    "projet.6.client":"Agence évènementielle",
-    "projet.6.description":"Retravailler la logique du site, réalisé par un autre developpeur n'ayant pas eu le temps de finir",
-    "projet.6.objectif":"Debugger les différents problèmes et réaliser des tests unitaires, d'intégration et un cahier de recette end-to-end afin d'optimiser parfaitement le site."
-
+    "projet.6.titre": "Débugger le site d'une agence d'événementiel",
+    "projet.6.description":"Le site à été commencé par un developpeur qui à dû partir. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. J'ai donc réalisé des tests (intégrations, unitaires, end-to-end) afin de corriger les bugs et éviter de futur problèmes. J'ai aussi réalisé un cahier de recette. "
 
 
 }
