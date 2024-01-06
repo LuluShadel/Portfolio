@@ -9,7 +9,7 @@ import Footer from '../components/footer';
 
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-import "../../public/lucile_thieulin.webp"
+import "../../public/lucile_thieulin.jpg"
 
 
 

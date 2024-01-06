@@ -3,7 +3,7 @@ import styles from '../style/_hero.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import photo from "../../public/lucile_thieulin.webp"
+import photo from "../../public/lucile_thieulin.jpg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -24,7 +24,7 @@ const Hero = () => {
             <p>{t('hero_text')}</p>
               <p><Link href="/#Contact" className={styles['link_contact']}>{t('common:hero_link')}</Link> {t('common:hero_link_text')} </p>
             
-            <FontAwesomeIcon icon={faArrowDown} className={styles['hero_icon']} />
+            <Link href="/#competence"><FontAwesomeIcon icon={faArrowDown} className={styles['hero_icon']} /></Link>
           </div>
           
         </div>

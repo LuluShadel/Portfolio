@@ -12,7 +12,7 @@ const Competence = () => {
     const { t  } = useTranslation();
 
     return (
-        <div  className={styles["main_competence"]}>
+        <div  className={styles["main_competence"]} id='competence'>
             <div>
                 <h3>{t("common:compet_title")}</h3>
                 <div className={styles["ligne-orange"]}>
