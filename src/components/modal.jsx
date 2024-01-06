@@ -32,30 +32,28 @@ const Modal = ({projet,onClose}) => {
                 </div>
                 <div className={styles["text_and_link"]}>
                 <div className={styles["modal-content-text"]}>
-                <div className={styles["text"]}>
-                    <h3>{t("common:modal-qui")} </h3>
-                    <p>{t(`projet.${projet.id}.client`)}
+
+                    <h2>{t(`projet.${projet.id}.titre`)}</h2>
+                    
+                    <p className={styles["text"]}>{t(`projet.${projet.id}.description`)}
                     </p>
-                </div>
-                <div className={styles["text"]}>
-                <p>{t(`projet.${projet.id}.description`)}
-                    </p>
-                    <h3 className={styles["margin-left"]}>{t("common:modal-description")}</h3>
-                </div>
-                <div className={styles["text"]}>
-                    <h3>{t("common:modal-objectif")}</h3>
-                    <p>{t(`projet.${projet.id}.objectif`)}
-                    </p>
-                </div>
+                    <div className={styles["competence-list"]} >
+                        {projet.competence.map((competence,index)=>(
+                        <div key={index} className={styles["tag"]} >{competence}</div>
+                        ))}
+                        </div>
+                    
+                    
                 </div>
                 <div className={styles["projet_link"]} >
-                <Link href={projet.lienGitHub} className={styles["projet_link-only"]}>
+                <Link href={projet.lienGitHub} target="_blank" className={styles["projet_link-only"]}>
                     <Image src={logo_git} alt='logo github' height={80} width={80} className={styles["projet_link-img"]}  />
                     <p>{t('modal-lien-git')}</p>
+                    
                     </Link>
                     <div>
                     {projet.lienSite && (
-                    <Link href={projet.lienSite} className={styles["projet_link-only"]}>
+                    <Link href={projet.lienSite} target="_blank" className={styles["projet_link-only"]}>
                     <Image src={logo_lien} alt='logo Lien' height={80} width={80} className={styles["projet_link-img"]} />
                     <p>{t('modal-lien-site')}</p>
                     </Link>
@@ -64,18 +62,7 @@ const Modal = ({projet,onClose}) => {
                 </div>
 
                 </div>
-                <div className={styles["section_tag"]} >
                 
-                <div className={styles["tag_contain"]}>
-                {projet.tag.map((tag,index)=> (
-                    
-                    <div key={index} className={styles["tag"]} >
-                        <Image src={tag.cover} alt='logo language utilisé'width={50} height={50} className={styles["tag_img"]}  />
-                    <span>{tag.name}</span>
-                    </div>
-                ))}
-                </div>
-                </div>
 
             
             </div>

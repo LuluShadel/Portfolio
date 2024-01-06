@@ -19,7 +19,7 @@
 
     margin: auto;
     border: 1px solid #888;
-    width: 80%;
+    width: 60%;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
     .bandeau-img{
        object-fit: cover;
        width: 100%;
-       height: auto;
+       height: 15em;
        border-radius: 10px;
        box-shadow: 0px 9px 12px -6px #000000;
     }
@@ -57,26 +57,21 @@
 
 
     .modal-content-text{
-        padding: 20px;
-        margin-top: 1em;
+        padding: 0 1em 0 1em ;
         @media (min-width : 768px) {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-left: 5em;
-            
+        
+        }  
 
+        h2{
+            margin: 0;
+            text-align: center;
         }
-    .text{
-        display: flex;
-        align-items: center;
-        @media (min-width : 768px) {
-        margin-bottom: 5em;
-        }
-       
        
     }
-    p{
+    .text{
         font-size: 0.7em;
         background-color: rgba(247, 191, 127, 0.982);
         border-radius: 40px;
@@ -87,6 +82,44 @@
             font-size: 1em;
         }
         
+    }
+
+    .competence-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin-bottom: 1em;
+
+        .tag {
+            background:linear-gradient(144deg, rgba(240,194,145,1) 0%, rgba(214,208,195,0.9725140056022409) 100%);
+            border-radius: 3px 0 0 3px;
+            color: white;
+            display: inline-block;
+            height: 26px;
+            line-height: 26px;
+            padding: 0 20px 0 23px;
+            position: relative;
+            margin: 0 10px 10px 0;
+            text-decoration: none;
+            transition: color 0.2s;
+          }
+          
+          .tag::before {
+            background-image: url(../../public//fond.avif);
+            border-radius: 10px;
+            box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+            content: '';
+            height: 6px;
+            left: 10px;
+            position: absolute;
+            width: 6px;
+            top: 10px;
+          }
+          
+          .tag:hover {
+            background-color: orange;
+            color: white;
+          }
     }
     
     h3 {
@@ -125,49 +158,14 @@
         .projet_link-img{
             width: 50px;
             height: auto;
-            @media (min-width : 768px) {
-            width: 80px;
-            }
+            
         
         
     }
     
-
-    p{
-        margin: 1em 0 0 0;
-    }
    }
 
-   .section_tag{
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    box-shadow: 0px -6px 12px -2px #000000;
-    padding: 2em 0 2em 0;
-
    
-}
-
-.tag_contain{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    @media (min-width : 768px) {
-        justify-content: center;
-        gap: 2em;
-        margin-bottom: 2em;
-    }
-    
-
-    .tag{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    
-}
 
 }
 
-}

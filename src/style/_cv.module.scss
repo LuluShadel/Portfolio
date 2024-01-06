@@ -37,6 +37,9 @@
 
     p{
         margin-top: 4em;
+        @media (min-width : 768px) {
+        font-size: 1.5em;
+        }
     }
 
 .cv{
