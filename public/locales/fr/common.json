@@ -4,7 +4,8 @@
     "nav2":"Projets",
     "nav3":"Contact",
 
-    "hero_title":"Bonjour, Lucile developpeur web",
+    "hero_title1":"Lucile,",
+    "hero_title2":"developpeur web",
     "hero_text":"Toujours à la recherche de nouveaux challenges, j'ai débuté par l'apprentissage de Javascript mais j'ai très vite éprouvé un grand intérêt pour React et j'ai donc obtenu mon diplôme de developpeur web cependant je ne compte pas m'arrêter la ! Concevoir un site, partant de quelques idées sur un morceau de papier puis faire des maquettes pour enfin le voir prendre forme est un vrai plaisir. J'aime ajouter des petits détails pour faire de chaque site une pièce unique.",
     "hero_link":"Contactez-moi",
     "hero_link_text":"et parlons de votre projet !",
