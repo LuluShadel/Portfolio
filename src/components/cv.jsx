@@ -2,6 +2,8 @@ import styles from '../style/_cv.module.scss';
 import Image from 'next/image';
 import mini_line from "../../public/mini_line.png";
 
+import Cv_anim from './cv-animation';
+
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -27,13 +29,7 @@ const CV = () => {
                 <Image src={mini_line} alt='ligne orange' width={200}  />
                 </div>
             <div className={styles["main_cv-contain"]}>
-            <a href="/CV_lucile.pdf" target="_blank">
-             <p className={styles["cv"]} >CV</p>
-
-                
-                    
-            <FontAwesomeIcon icon={faFile} className={styles['cv_icon']} />
-            </a>
+            <Cv_anim />
             
                 <p>{t("common:cv_text")}</p>
             </div>
