@@ -25,10 +25,10 @@ const Footer = () => {
     return (
         <div className={styles['footer_main']}>
           <div className={styles['footer_reseau']}>
-          <Link href="/CV_lucile_THIEULIN.pdf" className={styles['footer-link']}>
+          <a href="/CV_lucile.pdf" target="_blank" className={styles['footer-link']}>
             <FontAwesomeIcon icon={faFile} className={styles['icon_contact']} />
            <p>CV</p> 
-            </Link>
+            </a>
             <Link href="mailto:lucile.thieulin96@gmail.com" className={styles['footer-link']}>
             <FontAwesomeIcon icon={faEnvelope} className={styles["icon_contact"]}/>
            <p>Mail</p>
