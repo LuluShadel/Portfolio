@@ -29,7 +29,7 @@ const Competence = () => {
                       height={competence.height}
                       className={styles["competence_logo"]}
                     />
-                    <p className={styles["competence_name"]}>{competence.name}</p>
+                    
                   </div>
                     
                 ))}

@@ -53,7 +53,10 @@
     "projet.5.description":"Site to show the work of a professional photographer with optimization problems causing problems for users. I realized: a global optimization of the site both on performance and SEO, the implementation of local referencing using Schema.org, the addition of metas for social networks, the optimization of the accessibility of the site and finally I recorded all the changes made in an optimization report.",
 
     "projet.6.titre": "Debugging the site of an event agency",
-    "projet.6.description":"The site was started by a developer who had to leave. The site is functional, but some bugs hinder the good use by visitors. So I performed tests (integrations, units, end-to-end) to correct bugs and avoid future problems. I also made a recipe book. "
+    "projet.6.description":"The site was started by a developer who had to leave. The site is functional, but some bugs hinder the good use by visitors. So I performed tests (integrations, units, end-to-end) to correct bugs and avoid future problems. I also made a recipe book. ",
+
+    "projet.7.titre": "Challenge site e-commerce",
+    "projet.7.description":"First challenge from the 'Front-end Mentor' website completed with React and Tailwind. The site is responsive (mobile, tablet, and desktop). Use of reusable components and props. Carousels behave differently in mobile and desktop versions. "
 }
 
    

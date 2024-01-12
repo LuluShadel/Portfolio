@@ -53,7 +53,12 @@
     "projet.5.description":"Site pour montrer le traval d'un photographe professionelle comportant des soucis d'optimisation entrainant des problèmes pour les utilisateurs. j'ai donc réalisé : une optimisation globale du site tant sur les performances que sur le SEO, la mise en place du référencement local en utilisant Schema.org, l'ajout des metas pour les réseaux sociaux, l'optimisation de l'accessibilité du site et enfin j'ai consigné toutes les modifications apportés dans un rapport d'optimisation.",
 
     "projet.6.titre": "Débugger le site d'une agence d'événementiel",
-    "projet.6.description":"Le site à été commencé par un developpeur qui à dû partir. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. J'ai donc réalisé des tests (intégrations, unitaires, end-to-end) afin de corriger les bugs et éviter de futur problèmes. J'ai aussi réalisé un cahier de recette. "
+    "projet.6.description":"Le site à été commencé par un developpeur qui à dû partir. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. J'ai donc réalisé des tests (intégrations, unitaires, end-to-end) afin de corriger les bugs et éviter de futur problèmes. J'ai aussi réalisé un cahier de recette. ",
+
+    
+    "projet.7.titre": "Challenge site e-commerce",
+    "projet.7.description":"Premier challenge du site 'Front-end Mentor' réalisé avec React et Tailwind. Le site est responsive (mobile, tablette, et ordinateur). Utilisation de composants réutilisables et de props. Les carrousels se comportent différemment en version mobile ou en version ordinateur. "
+
 
 
 }
