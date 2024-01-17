@@ -37,26 +37,29 @@
     "modal-lien-git":"Link to GitHub",
     "modal-lien-site":"Link to the website",
 
-    "projet.1.titre": "Real estate rental web application with React",
-    "projet.1.description":"Total redesign of the site to move to a full stack in JavaScript with NodeJS on the back-end side, and React on the front-end side. Development of the entire application, React components, React Router routes, following the Figma models (responsives). Data is retrieved dynamically from a JSON file. Animations are made with SASS",
+    "projet.1.titre":"Multi-step-form",
+    "projet.1.description": "'Front-end Mentor' challenge with Next.js , redux and tailwind. The user can choose his subscription, formula and options. They can choose to pay per month or per year. The final page summarizes the customer’s choice and the total amount based on their choices. It can change any choice at any time. The data is stored in the store with Redux.",
 
-    "projet.7.titre": "Dynamic web page with Javascript",
-    "projet.7.description":"Website of a professional photographer. Including a presentation page of its projects recover from an API (Swagger) and which can be sorted through a filter, a login page of the site administrator, a modal to add new projects and store them and a modal to delete them. ",
+    "projet.2.titre": "Real estate rental web application with React",
+    "projet.2.description":"Total redesign of the site to move to a full stack in JavaScript with NodeJS on the back-end side, and React on the front-end side. Development of the entire application, React components, React Router routes, following the Figma models (responsives). Data is retrieved dynamically from a JSON file. Animations are made with SASS",
 
-    "projet.3.titre": "Home page of a travel agency",
-    "projet.3.description":"Home page development in HTML and CSS. Responsive page according to figma models in desktop, tablet and mobile.",
+    "projet.3.titre": "Challenge site e-commerce",
+    "projet.3.description":"First challenge from the 'Front-end Mentor' website completed with React and Tailwind. The site is responsive (mobile, tablet, and desktop). Use of reusable components and props. Carousels behave differently in mobile and desktop versions. ",
 
-    "projet.4.titre": "Mobile site with animation ",
-    "projet.4.description":"Gastronomic restaurant site in mobile first. 4 menus are available and it is possible to mark your preference thanks to the heart icon. At the click of the menu the dishes appear with an animation made in SASS. An animation simulating a loading is present at loading. ",
+    "projet.4.titre": "Home page of a travel agency",
+    "projet.4.description":"Home page development in HTML and CSS. Responsive page according to figma models in desktop, tablet and mobile.",
 
-    "projet.5.titre": "Optimize the SEO of a photographer site",
-    "projet.5.description":"Site to show the work of a professional photographer with optimization problems causing problems for users. I realized: a global optimization of the site both on performance and SEO, the implementation of local referencing using Schema.org, the addition of metas for social networks, the optimization of the accessibility of the site and finally I recorded all the changes made in an optimization report.",
+    "projet.5.titre": "Mobile site with animation ",
+    "projet.5.description":"Gastronomic restaurant site in mobile first. 4 menus are available and it is possible to mark your preference thanks to the heart icon. At the click of the menu the dishes appear with an animation made in SASS. An animation simulating a loading is present at loading. ",
 
-    "projet.6.titre": "Debugging the site of an event agency",
-    "projet.6.description":"The site was started by a developer who had to leave. The site is functional, but some bugs hinder the good use by visitors. So I performed tests (integrations, units, end-to-end) to correct bugs and avoid future problems. I also made a recipe book. ",
+    "projet.6.titre": "Optimize the SEO of a photographer site",
+    "projet.6.description":"Site to show the work of a professional photographer with optimization problems causing problems for users. I realized: a global optimization of the site both on performance and SEO, the implementation of local referencing using Schema.org, the addition of metas for social networks, the optimization of the accessibility of the site and finally I recorded all the changes made in an optimization report.",
 
-    "projet.2.titre": "Challenge site e-commerce",
-    "projet.2.description":"First challenge from the 'Front-end Mentor' website completed with React and Tailwind. The site is responsive (mobile, tablet, and desktop). Use of reusable components and props. Carousels behave differently in mobile and desktop versions. "
+    "projet.7.titre": "Debugging the site of an event agency",
+    "projet.7.description":"The site was started by a developer who had to leave. The site is functional, but some bugs hinder the good use by visitors. So I performed tests (integrations, units, end-to-end) to correct bugs and avoid future problems. I also made a recipe book. ",
+
+    "projet.8.titre": "Dynamic web page with Javascript",
+    "projet.8.description":"Website of a professional photographer. Including a presentation page of its projects recover from an API (Swagger) and which can be sorted through a filter, a login page of the site administrator, a modal to add new projects and store them and a modal to delete them. "
 }
 
    

@@ -37,27 +37,31 @@
     "modal-lien-git":"Lien vers GitHub",
     "modal-lien-site":"Lien vers le site",
 
-    "projet.1.titre": "Application web de location immobilière avec React",
-    "projet.1.description":"Refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Développement de l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives). Les données sont récupérées dynamiquement depuis un fichier JSON. Les animations sont réalisés avec SASS",
+    "projet.1.titre": "Application à choix multiple",
+    "projet.1.description":"Challenge de 'front-end Mentor' réalisé avec Next.js , redux et tailwind. L'utilisateur peut choisir son abonnement, sa formule et ses options. Il peut choisir de payer par mois ou bien par année. La page finale récapitule le choix du client ainsi que le montant total en fonction de ses choix. Il peut modifier n'importe quel choix à tout moment. Les données sont stockés dans le store avec Redux.",
 
-    "projet.2.titre": "Page web dynamique avec Javascript",
-    "projet.2.description":"Site web d'une photographe professionelle. Comprenant une page de présentation de ses projets récupérer depuis une API (Swagger) et qui peuvent être trier grâce à un filtre, une page de connexion de l'administrateur du site, une modal permettant d'ajouter de nousveaux projet et de les stocker et une modal permettant de les supprimer. ",
+    "projet.2.titre": "Application web de location immobilière avec React",
+    "projet.2.description":"Refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Développement de l'ensemble de l'application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives). Les données sont récupérées dynamiquement depuis un fichier JSON. Les animations sont réalisés avec SASS",
 
-    "projet.3.titre": "Page d'accueil d'une agence de voyage",
-    "projet.3.description":"Developpement de la page d'accueil en HTML et CSS. Page responsive selon les maquettes figma en desktop, tablette et mobile.",
+    "projet.3.titre": "Challenge site e-commerce",
+    "projet.3.description":"Premier challenge du site 'Front-end Mentor' réalisé avec React et Tailwind. Le site est responsive (mobile, tablette, et ordinateur). Utilisation de composants réutilisables et de props. Les carrousels se comportent différemment en version mobile ou en version ordinateur. ",
 
-    "projet.4.titre": "Site mobile avec animation ",
-    "projet.4.description":"Site de restauration gastronomique en mobile first. 4 menus sont disponibles et il est possible de marquer sa préférence grâce à l'icône de coeur. Au clic des menu les plats apparaissent avec une animation faite en SASS. Une animation simulant un loading est présente au chargement. ",
+    "projet.4.titre": "Page d'accueil d'une agence de voyage",
+    "projet.4.description":"Developpement de la page d'accueil en HTML et CSS. Page responsive selon les maquettes figma en desktop, tablette et mobile.",
 
-    "projet.5.titre": "Optimisez le référencement d'un site de photographe",
-    "projet.5.description":"Site pour montrer le traval d'un photographe professionelle comportant des soucis d'optimisation entrainant des problèmes pour les utilisateurs. j'ai donc réalisé : une optimisation globale du site tant sur les performances que sur le SEO, la mise en place du référencement local en utilisant Schema.org, l'ajout des metas pour les réseaux sociaux, l'optimisation de l'accessibilité du site et enfin j'ai consigné toutes les modifications apportés dans un rapport d'optimisation.",
+    "projet.5.titre": "Site mobile avec animation ",
+    "projet.5.description":"Site de restauration gastronomique en mobile first. 4 menus sont disponibles et il est possible de marquer sa préférence grâce à l'icône de coeur. Au clic des menu les plats apparaissent avec une animation faite en SASS. Une animation simulant un loading est présente au chargement. ",
 
-    "projet.6.titre": "Débugger le site d'une agence d'événementiel",
-    "projet.6.description":"Le site à été commencé par un developpeur qui à dû partir. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. J'ai donc réalisé des tests (intégrations, unitaires, end-to-end) afin de corriger les bugs et éviter de futur problèmes. J'ai aussi réalisé un cahier de recette. ",
+    "projet.6.titre": "Optimisez le référencement d'un site de photographe",
+    "projet.6.description":"Site pour montrer le traval d'un photographe professionelle comportant des soucis d'optimisation entrainant des problèmes pour les utilisateurs. j'ai donc réalisé : une optimisation globale du site tant sur les performances que sur le SEO, la mise en place du référencement local en utilisant Schema.org, l'ajout des metas pour les réseaux sociaux, l'optimisation de l'accessibilité du site et enfin j'ai consigné toutes les modifications apportés dans un rapport d'optimisation.",
 
+    "projet.7.titre": "Débugger le site d'une agence d'événementiel",
+    "projet.7.description":"Le site à été commencé par un developpeur qui à dû partir. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. J'ai donc réalisé des tests (intégrations, unitaires, end-to-end) afin de corriger les bugs et éviter de futur problèmes. J'ai aussi réalisé un cahier de recette. ",
+
+    "projet.8.titre": "Page web dynamique avec Javascript",
+    "projet.8.description":"Site web d'une photographe professionelle. Comprenant une page de présentation de ses projets récupérer depuis une API (Swagger) et qui peuvent être trier grâce à un filtre, une page de connexion de l'administrateur du site, une modal permettant d'ajouter de nousveaux projet et de les stocker et une modal permettant de les supprimer. "
     
-    "projet.7.titre": "Challenge site e-commerce",
-    "projet.7.description":"Premier challenge du site 'Front-end Mentor' réalisé avec React et Tailwind. Le site est responsive (mobile, tablette, et ordinateur). Utilisation de composants réutilisables et de props. Les carrousels se comportent différemment en version mobile ou en version ordinateur. "
+    
 
 
 

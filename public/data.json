@@ -79,9 +79,22 @@
 
 
 "projets":[
-   
     {
         "id":1,
+        "title":"Multi-step-form",
+        "cover":"/capture_ecran_multi-step_form.png",
+        "width": 400, 
+        "height": 400,
+        "bandeau":"/bandeau_multi-step-form.png",
+        "categorie":"React",
+        "lienGitHub":"https://github.com/LuluShadel/multi-step-form",
+        "lienSite": "https://multi-step-form-mu-neon.vercel.app/",
+        "competence":[ "React", "Next.js", "Responsive","Redux"
+        ]
+     },
+   
+    {
+        "id":2,
         "title":"Kasa",
         "cover":"/capture_ecran_kasa.png",
         "width": 400, 
@@ -94,7 +107,7 @@
         ]
      },
      {
-        "id":2,
+        "id":3,
         "title":"E-commerce Sneakers",
          "cover":"/capture_ecran_e-commerce.png",
         "width": 400, 
@@ -108,7 +121,7 @@
         
      },
      {
-        "id":3,
+        "id":4,
         "title":"Booki",
         "cover":"/capture_ecran_booki.png",
         "width": 400, 
@@ -121,7 +134,7 @@
         ]
      },
      {
-        "id":4,
+        "id":5,
          "title":"Oh my food",
          "cover":"/capture_ecran_oh_my_food.png",
         "width": 400, 
@@ -135,7 +148,7 @@
      },
 
      {
-        "id":5,
+        "id":6,
         "title":"Nina Carducci Photocgraphe",
          "cover":"/capture_ecran_carducci.png",
         "width": 400, 
@@ -148,7 +161,7 @@
         ]
      },
      {
-        "id":6,
+        "id":7,
         "title":"77Event",
          "cover":"/capture_ecran_77event.png",
         "width": 400, 
@@ -162,7 +175,7 @@
         
      },
      {
-        "id":7,
+        "id":8,
         "title":"Sophie Bluel",
         "cover":"/capture_ecran_sophie_bluel.png",
         "width": 400, 
