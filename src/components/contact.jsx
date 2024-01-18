@@ -102,7 +102,7 @@ const Contact = () => {
 
 
     <div className={styles["main_contact--form"]} >
-        <p>{t("common:contact_text1")} <br />{t("common:contact_text2")} <br />{t("common:contact_text3")} <br /> {t("common:contact_text4")}</p>
+        <p>{t("common:contact_text1")}</p>
         <form className={styles["formulaire"]} ref={form} onSubmit={sendEmail}>
             <label htmlFor="nom">{t("common:input_name")} </label>
             <input 

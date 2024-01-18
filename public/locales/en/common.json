@@ -14,7 +14,7 @@
     "compet_text":"More skills to come!",
 
     "projet_title":"Projects",
-    "projet_text":"Here are my projects to date, and those in progress. Find the link to the site or gitHub to learn more about each project.",
+    "projet_text":"Here are my projects to date. Find the link to the site or gitHub to learn more about each project.",
    
     "btn-tous":"All",
     "btn-plus":"See more",
@@ -24,10 +24,7 @@
     "cv_text":"To know everything about my career, download my resume!",
 
     "contact_title":"Contact",
-    "contact_text1":"To contact me",
-    "contact_text2":"form",
-    "contact_text3":"or my e-mail",
-    "contact_text4":" are available so do not hesitate and contact me!",
+    "contact_text1":"To contact me, you have my email or my form. Do not hesitate !",
     "input_name": "Name",
     "btn-envoyer": "Send",
     "btn-succes":"Your message has been sent. I would quickly come back to you!",

@@ -3,7 +3,7 @@
 padding: 1em;
     position: relative;
     height: 100%;
-    background-image: url(/_next/static/media/fond.818f1127.avif);
+    background-image: url(../../public/fondGris.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -100,6 +100,7 @@ button:hover {
         }
         h3{
           text-align: center;
+          font-size: 1.5em;
         }
       }
 

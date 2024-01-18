@@ -6,15 +6,15 @@
 
     "hero_title1":"Lucile,",
     "hero_title2":"developpeur web",
-    "hero_text":"Toujours à la recherche de nouveaux challenges, j'ai débuté par l'apprentissage de Javascript mais j'ai très vite éprouvé un grand intérêt pour React et j'ai donc obtenu mon diplôme de developpeur web cependant je ne compte pas m'arrêter la ! Concevoir un site, partant de quelques idées sur un morceau de papier puis faire des maquettes pour enfin le voir prendre forme est un vrai plaisir. J'aime ajouter des petits détails pour faire de chaque site une pièce unique.",
+    "hero_text":"Fort d'une expérience en tant que responsable dans le domaine du commerce, j'ai délibérément choisi de tracer une nouvelle voie professionnelle. Titulaire d'un diplôme de développeur Web obtenu chez Openclassrooms, je me démarque par mon engagement, ma responsabilité et ma curiosité innée. En perpétuelle quête de connaissances, je m'épanouis dans la découverte constante de nouveaux savoirs. ",
     "hero_link":"Contactez-moi",
-    "hero_link_text":"et parlons de votre projet !",
+    "hero_link_text":" pour en savoir plus !",
 
     "compet_title":"Compétences",
     "compet_text":"D'autres compétences à venir !",
 
     "projet_title":"Projets",
-    "projet_text":"Voici mes projets réalisés à ce jour, et ceux en cours de réalisation. Retrouvez le lien vers le site ou bien le gitHub pour en apprendre plus sur chaque projet.",
+    "projet_text":"Voici mes projets réalisés à ce jour. Retrouvez le lien vers le site ou bien le gitHub pour en apprendre plus sur chaque projet.",
    
     "btn-tous":"Tous",
     "btn-plus":"Voir plus",
@@ -24,10 +24,7 @@
     "cv_text":"Pour tout connaître de mon parcours, téléchargez mon Cv !",
 
     "contact_title":"Contact",
-    "contact_text1":"Pour me contacter",
-    "contact_text2":"le formulaire",
-    "contact_text3":"ou mon e-mail",
-    "contact_text4":"sont disponibles alors n'hésitez pas et contactez-moi !",
+    "contact_text1":"Pour me contacter, mon email ou mon formulaire sont disponibles. N'hésitez pas et contactez moi !",
     "input_name": "Nom",
     "btn-envoyer": "Envoyer",
     "btn-succes":"Votre message à bien été envoyé. je reviendrais vite vers vous !",
