@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Hero_anim from './hero-animation';
 
-import photo from "../../public/lucile_thieulin.jpg"
+import photo from "../../public/photo-profil-portfolio.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
